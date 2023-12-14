@@ -1,7 +1,7 @@
 // Arquivo: App.tsx
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Header from "./layout/header/header";
+import Header from "./layout/header/Header";
 import Home from './routes/Home/home';
 import Aniversario from './routes/aniversarios/aniversario';
 import Romanticos from './routes/romanticos/romanticos';
