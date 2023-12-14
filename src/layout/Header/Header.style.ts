@@ -6,7 +6,9 @@ export const HeaderNav = styled.nav`
   .nav-link {
     color: #B0228A; 
     height: 100%;
-    
+    transition: .5s all;
+
+
     &:hover {
       color: #fff; 
       background: #B0228A;

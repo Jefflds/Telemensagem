@@ -1,16 +1,11 @@
 import styled from "styled-components";
 
-
 export const FooterStyled = styled.div`
-background: #FFEBFB;
-
-
-
-
+  background: #ffebfb;
 `;
-export const FooterContainer = styled.div`
-  background-color: #FFEBFB;
 
+export const FooterContainer = styled.div`
+  background-color: #ffebfb;
 `;
 
 export const FooterTop = styled.div`
@@ -18,25 +13,24 @@ export const FooterTop = styled.div`
 `;
 
 export const FooterBottom = styled.div`
-  background-color: #C888B7;
+  background-color: #c888b7;
   color: #ffffff;
   padding: 10px 0;
 `;
 
 export const FooterColumn = styled.div`
   margin-bottom: -20px;
-  
 
   h3 {
     font-size: 24px;
     text-decoration: underline;
     margin-bottom: 20px;
-    color: #A64B79;
+    color: #a64b79;
   }
 
   p {
     font-size: 16px;
-    color: #B0228A;
+    color: #b0228a;
   }
 
   span {
@@ -66,4 +60,3 @@ export const StyledLink = styled.a`
     color: #b0228a;
   }
 `;
-

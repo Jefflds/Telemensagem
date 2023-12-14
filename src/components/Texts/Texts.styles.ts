@@ -1,32 +1,6 @@
-import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
-
-const Home: React.FC = () => {
-  return (
-    <HomeContainer>
-      <Container>
-        <Row>
-          <Col sm={12}>
-            <h3>Bem vindo ao nosso site</h3>
-            <span className="sep-container">
-              <span className="line">
-                <span></span>
-              </span>
-            </span>
-          </Col>
-        </Row>
-      </Container>
-    </HomeContainer>
-  );
-};
-
-export default Home;
-
 import styled from "styled-components";
 
-const HomeContainer = styled.section`
-  background: #fff;
-
+export const TitleWithLineContainer = styled.div`
   h3 {
     font-size: 24px;
     font-weight: bold;
@@ -35,6 +9,10 @@ const HomeContainer = styled.section`
     display: table;
     white-space: pre !important;
     width: 100% !important;
+
+    .title {
+      margin-right: 20px;
+    }
   }
 
   .sep-container {

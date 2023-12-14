@@ -1,7 +1,7 @@
 import  { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Navbar, Container, Nav } from "react-bootstrap";
-import { HeaderNav } from "./header.style";
+import { HeaderNav } from "./Header.style";
 
 
 const Header: React.FC = () => {

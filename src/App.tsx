@@ -1,6 +1,6 @@
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './routes/Home/home';
+import Home from './routes/Home/Home';
 import Aniversario from './routes/aniversarios/aniversario';
 import Romanticos from './routes/romanticos/romanticos';
 import Evangelico from './routes/evagelico/evangelico';
@@ -11,7 +11,7 @@ import Duvidas from './routes/duvidas/duvidads';
 import Contato from './routes/contato/contato';
 import Banner from './layout/Banner/Banner';
 import Header from './layout/Header/Header';
-import Footer from "./layout/footer/Footer"
+import Footer from "./layout/Footer/Footer"
 
 
 const App: React.FC = () => {
