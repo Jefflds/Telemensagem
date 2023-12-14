@@ -11,6 +11,7 @@ import Duvidas from './routes/duvidas/duvidads';
 import Contato from './routes/contato/contato';
 import Banner from './layout/Banner/Banner';
 import Header from './layout/Header/Header';
+import Footer from "./layout/footer/Footer"
 
 
 const App: React.FC = () => {
@@ -29,6 +30,7 @@ const App: React.FC = () => {
         <Route path="/duvidas" element={<Duvidas />} />
         <Route path="/contato" element={<Contato />} />
       </Routes>
+      <Footer/>
     </Router>
   );
 };
