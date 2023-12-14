@@ -63,7 +63,7 @@ const Footer: React.FC = () => {
               </p>
               <p className="center">
                 <StyledLink
-                  href="https://api.whatsapp.com/send?1=pt_BR&amp;phone=5511946933765"
+                  href="https://api.whatsapp.com/send?1=pt_BR&phone=5511963665212"
                   target="_blank"
                 >
                   <img
