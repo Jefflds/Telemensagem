@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './routes/Home/home';
 import Aniversario from './routes/aniversarios/aniversario';
@@ -10,7 +10,7 @@ import DataEspeciais from './routes/datasEspeciais/dataEspeciais';
 import Duvidas from './routes/duvidas/duvidads';
 import Contato from './routes/contato/contato';
 import Banner from './layout/Banner/Banner';
-import Header from './layout/header/header';
+import Header from './layout/Header/Header';
 
 
 const App: React.FC = () => {
