@@ -22,7 +22,7 @@ import GenroNora from "./genronora/genronora";
 import CunhadaCunhado from "./cunhadacunhado/cunhadacunhado";
 import TiaTio from "./tiatio/tiatio";
 import SobrinhaSobrinho from "./sobrinhasobrinho/sobrinhasobrinho";
-import PrimaPrimo from "./cunhadacunhado/primaprimo";
+import PrimaPrimo from "./primaprimo/primaprimo";
 import AvoAvo from "./avoavo/avoavo";
 import NetaNeto from "./netaneto/netaneto";
 import MadrinhaPadrinho from "./madrinhapadrinho/madrinhapadrinho";
