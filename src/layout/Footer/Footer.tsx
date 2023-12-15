@@ -9,6 +9,8 @@ import {
 } from "./Footer.styled";
 
 import TalkWithUs from "../../assets/TalkWithUs.svg";
+import bancos from "../../assets/imgFooter/bancos.png";
+import coracao from "../../assets/imgFooter/coracao.png";
 
 const Footer: React.FC = () => {
   return (
@@ -39,7 +41,7 @@ const Footer: React.FC = () => {
               <h3>EXCLUSIVIDADE!</h3>
               <p>
                 <img
-                  src="https://www.spptelemensagem.com.br/img/upload/source/coracao.png"
+                  src={coracao}
                   alt=""
                   width="21"
                   height="19"
@@ -48,7 +50,7 @@ const Footer: React.FC = () => {
               </p>
               <p>
                 <img
-                  src="https://www.spptelemensagem.com.br/img/upload/source/coracao.png"
+                  src={coracao}
                   alt=""
                   width="21"
                   height="19"
@@ -57,7 +59,7 @@ const Footer: React.FC = () => {
               </p>
               <p>
                 <img
-                  src="https://www.spptelemensagem.com.br/img/upload/source/coracao.png"
+                  src={coracao}
                   alt=""
                   width="21"
                   height="19"
@@ -82,7 +84,7 @@ const Footer: React.FC = () => {
               </p>
               <p>
                 <img
-                  src="https://www.spptelemensagem.com.br/img/upload/source/bancos.png"
+                      src={bancos}
                   alt=""
                   width="100%"
                   height="auto"
