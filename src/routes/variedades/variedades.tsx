@@ -1,6 +1,6 @@
 import React from "react";
-import { Button, CenteredParagraph, ColoredSpan, Container, Content } from "./evangelico.styled";
-const Evangelico: React.FC = () => {
+import { Button, CenteredParagraph, ColoredSpan, Container, Content } from "./variedades.styled";
+const Variedades: React.FC = () => {
     return (
       <Content>
       <Container>
@@ -39,4 +39,4 @@ const Evangelico: React.FC = () => {
     );
   };
   
-  export default Evangelico;
+  export default Variedades;

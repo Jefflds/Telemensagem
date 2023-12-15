@@ -1,7 +1,8 @@
-import React from "react";
+
 import { Col, Container, Row } from "react-bootstrap";
 import { TitleWithLine } from "../../components/Texts/Texts";
 import { HomeContainer } from "./Home.styles";
+import React from "react";
 
 const Home: React.FC = () => {
   return (
