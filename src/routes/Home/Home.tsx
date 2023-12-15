@@ -7,6 +7,7 @@ import React from "react";
 
 import { FaWhatsapp } from "react-icons/fa";
 import TalkWithUs from "../../assets/TalkWithUs.svg";
+import whastapp from "../../assets/whatsapp.png";
 import ListenOnline from "../../components/ListenOnline/ListenOnline";
 
 const ListenItems = [
@@ -53,12 +54,12 @@ const Home: React.FC = () => {
                 (11) 9 6366-5212
                 <FaWhatsapp size={32} />
               </span>
-              <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5511963665212">
+              <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5511963665212" target="blank">
                 <img
-                  src={TalkWithUs}
+                  src={whastapp}
                   alt=""
                   className="img-fluid mt-2"
-                  width={200}
+                  width={100}
                 />
               </a>
             </Col>

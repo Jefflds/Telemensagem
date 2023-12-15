@@ -11,6 +11,8 @@ import {
 import TalkWithUs from "../../assets/TalkWithUs.svg";
 import bancos from "../../assets/imgFooter/bancos.png";
 import coracao from "../../assets/imgFooter/coracao.png";
+import whatsapp from "../../assets/whatsapp.png";
+
 
 const Footer: React.FC = () => {
   return (
@@ -71,7 +73,7 @@ const Footer: React.FC = () => {
                   href="https://api.whatsapp.com/send?1=pt_BR&phone=5511963665212"
                   target="_blank"
                 >
-                 <img src={TalkWithUs} alt="" width="50%" height="auto" />
+                 <img src={whatsapp} alt="" width="70" height="auto" />
                 </StyledLink>
               </p>
             </FooterColumn>
@@ -96,13 +98,14 @@ const Footer: React.FC = () => {
               <p>
                 (11) 9 6366-5212 &nbsp;
                 <img
-                  src="https://www.spptelemensagem.com.br/img/upload/source/whatsapp.png"
+                  src={whatsapp}
                   alt=""
                   width="22"
                   height="26"
                 />
-              </p>
-              <p>desstak@hotmail.com</p>
+              </p><p style={{ textTransform: 'lowercase' }}>desstak@hotmail.com</p>
+
+
               <p>&nbsp;</p>
             </FooterColumn>
           </div>
