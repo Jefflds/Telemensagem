@@ -14,8 +14,8 @@ const Header: React.FC = () => {
   };
 
   return (
-    <HeaderNav>
-      <Container id="container1 row" className="mx-auto">
+    <HeaderNav >
+      <Container  fluid id="container1 row" className="mx-auto">
         <Navbar expand="lg">
           <Container fluid>
             <Navbar.Toggle
