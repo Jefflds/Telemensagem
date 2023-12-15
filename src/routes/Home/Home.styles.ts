@@ -7,7 +7,7 @@ export const HomeContainer = styled.section`
     overflow: hidden;
   }
   button {
-    background-color: #b0228a;
+    background-color: #D00100;
     border: 0;
     border-radius: 3.5em;
     color: #fff !important;
@@ -34,13 +34,13 @@ export const HomeContainer = styled.section`
   }
 
   p{
-    color: #c888b7;
+    color: #D00100;
   }
 
   .DuvidasEpedidos {
     p {
       font-weight: 800;
-      color: #b0228a;
+      color: #D00100;
     }
     span {
       svg {
@@ -54,7 +54,7 @@ export const HomeContainer = styled.section`
 
   h2 {
     font-size: 3rem;
-    color: #b0228a;
+    color: #D00100;
     font-weight: bold;
   }
 `;
