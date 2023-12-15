@@ -1,6 +1,7 @@
-import React from "react";
+
 import { Container } from "react-bootstrap";
 import { PageAudioLayoutContainer } from "./PageAudioLayout.styles";
+import React from "react";
 
 interface SubItem {
   id: string;
@@ -11,6 +12,7 @@ interface SubItem {
 interface AudioItem {
   id: string;
   title: string;
+  subTitle: string;
   subItems: SubItem[];
 }
 
@@ -28,6 +30,7 @@ const PageAudioLayout: React.FC<PageAudioLayoutProps> = ({ audioData }) => {
             className="d-flex align-items-start justify-content-center flex-column mb-3"
           >
             <h2>{audio.title}</h2>
+            <h3 className="mt-2 mb-2">{audio.subTitle}</h3>
             {audio.subItems.map((subItem: SubItem) => (
               <div key={subItem.id} className="mb-3 d-flex flex-column">
                 <h3 className="mt-2 mb-2">{subItem.subTitle}</h3>
