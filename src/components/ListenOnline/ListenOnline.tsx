@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { ListenOnlineContainer } from "./ListenOnline.styles";
 import { FaYoutube } from "react-icons/fa";
 
@@ -6,6 +7,10 @@ interface ListenOnlineProps {
 }
 
 const ListenOnline: React.FC<ListenOnlineProps> = ({ ListenItems }) => {
+  const LinkToRoute = (item: string) => {
+    const normalizedStr = item.replace(/[^a-zA-Z0-9]/g, "").toLowerCase();
+    return normalizedStr;
+  };
   return (
     <ListenOnlineContainer className="d-flex justify-content-center align-items-center">
       {ListenItems.map((ListenItem: string, index: number) => (
@@ -15,7 +20,9 @@ const ListenOnline: React.FC<ListenOnlineProps> = ({ ListenItems }) => {
           </div>
           <div className="content">
             <h4>Telemensagens</h4>
-            <span>{ListenItem}</span>
+            <Link to={LinkToRoute(ListenItem)}>
+              <span>{ListenItem}</span>
+            </Link>
           </div>
         </div>
       ))}

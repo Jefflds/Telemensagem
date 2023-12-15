@@ -28,9 +28,9 @@ export const ListenOnlineContainer = styled.div`
     }
 
     span {
-        text-decoration: underline;
-        font-size: 14pt;
-        
+      text-decoration: underline;
+      font-size: 14pt;
+      color: #800080;
     }
   }
 `;
