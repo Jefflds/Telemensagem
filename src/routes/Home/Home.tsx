@@ -6,7 +6,7 @@ import { HomeContainer } from "./Home.styles";
 import React from "react";
 
 import { FaWhatsapp } from "react-icons/fa";
-import TalkWithUs from "../../assets/TalkWithUs.svg";
+// import TalkWithUs from "../../assets/TalkWithUs";
 import ListenOnline from "../../components/ListenOnline/ListenOnline";
 
 const ListenItems = [
@@ -56,7 +56,7 @@ const Home: React.FC = () => {
               </span>
               <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5511963665212">
                 <img
-                  src={TalkWithUs}
+                  // src={TalkWithUs}
                   alt=""
                   className="img-fluid mt-2"
                   width={200}
