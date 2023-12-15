@@ -33,7 +33,6 @@ const PageAudioLayout: React.FC<PageAudioLayoutProps> = ({ audioData }) => {
             <h3 className="mt-2 mb-2">{audio.subTitle}</h3>
             {audio.subItems.map((subItem: SubItem) => (
               <div key={subItem.id} className="mb-3 d-flex flex-column">
-                <h3 className="mt-2 mb-2">{subItem.subTitle}</h3>
                 <span className="mt-2 mb-2">{`${subItem.id}-${subItem.subTitle}`}</span>
                 <audio className="mt-2 mb-2" controls src={subItem.src}></audio>
               </div>
