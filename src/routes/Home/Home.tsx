@@ -50,10 +50,7 @@ const Home: React.FC = () => {
               className="text-center DuvidasEpedidos d-flex flex-column"
             >
               <p>Em nosso Whatsapp ou nos Telefones:</p>
-              <span>
-                (11) 9 6366-5212
-                <FaWhatsapp size={32} />
-              </span>
+             
               <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5511963665212" target="blank">
                 <img
                   src={whastapp}

@@ -38,6 +38,7 @@ export const HomeContainer = styled.section`
 
   p{
     color: #D00100;
+    font-size:13pt;
   }
 
   .DuvidasEpedidos {

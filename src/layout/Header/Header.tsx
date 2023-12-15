@@ -49,14 +49,15 @@ const Header: React.FC = () => {
                 </Nav.Link>
                 <Nav.Link
                   as={Link}
-                  to="/romanticas"
-                  onClick={() => handleNavItemClick("/romanticas")}
+                  to="/datasespeciais"
+                  onClick={() => handleNavItemClick("/datasespeciais")}
                   className={
-                    location.pathname === "/romanticas" ? "active" : ""
+                    location.pathname === "/datasespeciais" ? "active" : ""
                   }
                 >
-                  Românticas
+                  Datas Especiais
                 </Nav.Link>
+              
                 <Nav.Link
                   as={Link}
                   to="/evangelicas"
@@ -69,14 +70,6 @@ const Header: React.FC = () => {
                 </Nav.Link>
                 <Nav.Link
                   as={Link}
-                  to="/variadas"
-                  onClick={() => handleNavItemClick("/variadas")}
-                  className={location.pathname === "/variadas" ? "active" : ""}
-                >
-                  Variadas
-                </Nav.Link>
-                <Nav.Link
-                  as={Link}
                   to="/lgbt"
                   onClick={() => handleNavItemClick("/lgbt")}
                   className={location.pathname === "/lgbt" ? "active" : ""}
@@ -85,14 +78,25 @@ const Header: React.FC = () => {
                 </Nav.Link>
                 <Nav.Link
                   as={Link}
-                  to="/datasespeciais"
-                  onClick={() => handleNavItemClick("/datasespeciais")}
+                  to="/romanticas"
+                  onClick={() => handleNavItemClick("/romanticas")}
                   className={
-                    location.pathname === "/datasespeciais" ? "active" : ""
+                    location.pathname === "/romanticas" ? "active" : ""
                   }
                 >
-                  Datas Especiais
+                  Românticas
                 </Nav.Link>
+                <Nav.Link
+                  as={Link}
+                  to="/variadas"
+                  onClick={() => handleNavItemClick("/variadas")}
+                  className={location.pathname === "/variadas" ? "active" : ""}
+                >
+                  Variadas
+                </Nav.Link>
+              
+
+                
 
                 
               </Nav>
