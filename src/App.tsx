@@ -1,11 +1,11 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./routes/Home/Home";
-import Aniversario from "./routes/Aniversarios/Aniversario";
+import Aniversario from "./routes/Aniversario/Aniversario";
 
 import Evangelico from "./routes/evagelico/evangelico";
 import Variedades from "./routes/variedades/variedades";
-import Lgbt from "./routes/lgbt/lgbt";
+import Lgbt from "./routes/Lgbt/Lgbt";
 import DataEspeciais from "./routes/datasEspeciais/dataEspeciais";
 import Duvidas from "./routes/duvidas/duvidas";
 import Contato from "./routes/contato/contato";

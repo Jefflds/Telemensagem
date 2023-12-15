@@ -22,7 +22,7 @@ export const ColoredSpan = styled.span`
   color: #e4d3e8;
 `;
 
-export const Button = styled.a`
+export const Button = styled.button`
   background-color: #b0228a;
   border: 0;
   border-radius: 3.5em;

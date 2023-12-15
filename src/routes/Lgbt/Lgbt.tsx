@@ -1,5 +1,5 @@
 import React from "react";
-import { Content, CenteredParagraph, ColoredSpan,Container, Button } from "../Aniversarios/Aniversario.styles";
+import { Content, CenteredParagraph, ColoredSpan,Container, Button } from "../Aniversario/Aniversario.styles";
 const lgbt: React.FC = () => {
     return (
       <Content>
