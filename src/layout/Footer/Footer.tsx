@@ -8,8 +8,8 @@ import {
   StyledLink,
 } from "./Footer.styled";
 
-import TalkWithUs from "../../assets/TalkWithUs.svg";
-import bancos from "../../assets/imgFooter/bancos.png";
+
+import bancos from "../../assets/bancos.png";
 import coracao from "../../assets/imgFooter/coracao.png";
 import whatsapp from "../../assets/whatsapp.png";
 
