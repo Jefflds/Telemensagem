@@ -7,6 +7,8 @@ import {
   StyledLink,
 } from "./Footer.styled";
 
+import TalkWithUs from "../../assets/TalkWithUs.svg";
+
 const Footer: React.FC = () => {
   return (
     <FooterContainer>
@@ -14,26 +16,26 @@ const Footer: React.FC = () => {
         <div className="container">
           <div className="row">
             <FooterColumn className="col-md-4">
-              <h3>HORÁRIOS</h3>
+              <h3>FUNCIONAMENTO</h3>
               <p>
-                <strong>Segunda a Sexta-feira</strong>
+                <strong>Segunda a Sexta-feira:</strong>
                 <br />
-                08 às 22 hs
+                08:00h às 22:00h
               </p>
               <p>
-                <strong>Sábados, Domingos e Feriados</strong>
+                <strong>Sábados, Domingos e Feriados:</strong>
                 <br />
-                08 às 22 hs
+                08:00h às 22:00h
               </p>
               <p>
-                <strong>Observação</strong>
+                <strong>Observação:</strong>
                 <br />
                 Passamos telemensagens fora do horário de atendimento
               </p>
             </FooterColumn>
 
             <FooterColumn className="col-md-4">
-              <h3>NOVIDADES !!!</h3>
+              <h3>EXCLUSIVIDADE!</h3>
               <p>
                 <img
                   src="https://www.spptelemensagem.com.br/img/upload/source/coracao.png"
@@ -41,7 +43,7 @@ const Footer: React.FC = () => {
                   width="21"
                   height="19"
                 />
-                &nbsp;Troca de fundo musical
+                &nbsp;Troca de fundo musical;
               </p>
               <p>
                 <img
@@ -50,7 +52,7 @@ const Footer: React.FC = () => {
                   width="21"
                   height="19"
                 />
-                &nbsp;Reação Gravada
+                &nbsp;Reação Gravada;
               </p>
               <p>
                 <img
@@ -59,17 +61,14 @@ const Footer: React.FC = () => {
                   width="21"
                   height="19"
                 />
-                &nbsp;Telemensagem Personalizada (com sua voz)
+                &nbsp;Telemensagem Personalizada (com sua voz).
               </p>
               <p className="center">
                 <StyledLink
                   href="https://api.whatsapp.com/send?1=pt_BR&phone=5511963665212"
                   target="_blank"
                 >
-                  <img
-                    src="https://www.spptelemensagem.com.br/img/upload/source/zap-img_1.png"
-                    alt=""
-                  />
+                  <img src={TalkWithUs} alt="" width="90%" height="auto" />
                 </StyledLink>
               </p>
             </FooterColumn>
@@ -84,8 +83,8 @@ const Footer: React.FC = () => {
                 <img
                   src="https://www.spptelemensagem.com.br/img/upload/source/bancos.png"
                   alt=""
-                  width="281"
-                  height="110"
+                  width="100%"
+                  height="auto"
                 />
               </p>
               <p>
@@ -115,8 +114,8 @@ const Footer: React.FC = () => {
       <FooterBottom>
         <div className="container d-flex ">
           <div className="col-md-8 d-flex p ">
-            Copyright &copy; 2023 -{" "}
-            <strong>Loucura de Amor | Telemensagens </strong>. Todos os direitos
+            Copyright &copy; 2023 -
+            <strong>Loucura de Amor | Telemensagens. </strong> Todos os direitos
             reservados.
           </div>
 
@@ -126,7 +125,7 @@ const Footer: React.FC = () => {
               className="empresa"
               target="_blank"
             >
-              Criador de Sites: HastyDev
+              Created by: HastyDev
             </StyledLink>
           </div>
         </div>

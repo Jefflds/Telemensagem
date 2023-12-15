@@ -8,7 +8,7 @@ export const FooterContainer = styled.div`
   background-color: #ffebfb;
   * {
     overflow: hidden;
-   }
+  }
 `;
 
 export const FooterTop = styled.div`
@@ -34,6 +34,7 @@ export const FooterColumn = styled.div`
   p {
     font-size: 16px;
     color: #b0228a;
+    text-transform: capitalize;
   }
 
   span {
@@ -46,6 +47,7 @@ export const FooterColumn = styled.div`
     color: #993300;
   }
 `;
+
 
 export const FooterSocial = styled.ul`
   list-style: none;
