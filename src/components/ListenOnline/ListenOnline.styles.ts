@@ -1,16 +1,19 @@
 import styled from "styled-components";
 
 export const ListenOnlineContainer = styled.div`
+  display: flex;
   flex-wrap: wrap;
   gap: 0px;
+  
   .itemContainer {
-    width: 33%;
+    width: 100%; 
   }
 
   .icon {
     background-color: #b0228a;
     border-radius: 50%;
-    width: 50px;
+    width: 75px;
+    height: 75px;
     margin-right: 5%;
 
     svg {
@@ -31,6 +34,18 @@ export const ListenOnlineContainer = styled.div`
       text-decoration: underline;
       font-size: 14pt;
       color: #800080;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .itemContainer {
+      width: 50%;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .itemContainer {
+      width: 33%; 
     }
   }
 `;

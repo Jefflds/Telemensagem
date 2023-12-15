@@ -15,7 +15,7 @@ const Footer: React.FC = () => {
       <FooterTop>
         <div className="container">
           <div className="row">
-            <FooterColumn className="col-md-4">
+            <FooterColumn className="col-md-4 mb-4">
               <h3>FUNCIONAMENTO</h3>
               <p>
                 <strong>Segunda a Sexta-feira:</strong>
@@ -34,7 +34,7 @@ const Footer: React.FC = () => {
               </p>
             </FooterColumn>
 
-            <FooterColumn className="col-md-4">
+            <FooterColumn className="col-md-4 mb-4">
               <h3>EXCLUSIVIDADE!</h3>
               <p>
                 <img
@@ -68,7 +68,7 @@ const Footer: React.FC = () => {
                   href="https://api.whatsapp.com/send?1=pt_BR&phone=5511963665212"
                   target="_blank"
                 >
-                  <img src={TalkWithUs} alt="" width="90%" height="auto" />
+                  <img src={TalkWithUs} alt="" width="50%" height="auto" />
                 </StyledLink>
               </p>
             </FooterColumn>

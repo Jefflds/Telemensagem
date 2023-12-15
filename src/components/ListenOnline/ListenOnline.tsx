@@ -14,7 +14,7 @@ const ListenOnline: React.FC<ListenOnlineProps> = ({ ListenItems }) => {
   return (
     <ListenOnlineContainer className="d-flex justify-content-center align-items-center">
       {ListenItems.map((ListenItem: string, index: number) => (
-        <div key={index} className="mt-5 d-flex itemContainer">
+        <div key={index} className="mt-5 d-flex itemContainer justify-content-center align-items-center">
           <div className="icon d-flex justify-content-center align-items-center">
             <FaYoutube size={32} />
           </div>

@@ -39,7 +39,7 @@ export const HomeContainer = styled.section`
     }
     span {
       svg {
-        margin-left: 2%;
+        margin-left: 1%;
         margin-bottom: 2px;
         fill: #25d366;
       }
