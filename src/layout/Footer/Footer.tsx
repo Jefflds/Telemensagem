@@ -8,7 +8,7 @@ import {
   StyledLink,
 } from "./Footer.styled";
 
-// import TalkWithUs from "../../assets/TalkWithUs.svg";
+import TalkWithUs from "../../assets/TalkWithUs.svg";
 
 const Footer: React.FC = () => {
   return (
@@ -69,7 +69,7 @@ const Footer: React.FC = () => {
                   href="https://api.whatsapp.com/send?1=pt_BR&phone=5511963665212"
                   target="_blank"
                 >
-                  {/* <img src={TalkWithUs} alt="" width="50%" height="auto" /> */}
+                 <img src={TalkWithUs} alt="" width="50%" height="auto" />
                 </StyledLink>
               </p>
             </FooterColumn>

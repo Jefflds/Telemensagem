@@ -1,5 +1,4 @@
-
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Content = styled.div`
   padding: 60px 0;
@@ -53,5 +52,3 @@ export const Button = styled.a`
     background: #c52299;
   }
 `;
-
-// Adicione estilos adicionais conforme necessário
