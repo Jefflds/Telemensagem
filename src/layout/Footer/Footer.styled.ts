@@ -6,6 +6,9 @@ export const FooterStyled = styled.div`
 
 export const FooterContainer = styled.div`
   background-color: #ffebfb;
+  * {
+    overflow: hidden;
+   }
 `;
 
 export const FooterTop = styled.div`

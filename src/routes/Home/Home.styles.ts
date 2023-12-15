@@ -3,7 +3,9 @@ import styled from "styled-components";
 export const HomeContainer = styled.section`
   background: #fff;
   padding: 30px;
-
+  * {
+    overflow: hidden;
+  }
   button {
     background-color: #b0228a;
     border: 0;
