@@ -33,7 +33,6 @@ import Ficantes from "./ficantes/ficantes";
 import EsposaEsposo from "./esposaesposo/esposaesposo";
 import NoivaNoivo from "./noivanoivo/noivanoivo";
 import ExNamoradoExEsposo from "./exnamoradoaexesposoa/exnamoradoaexesposoa";
-import CasamentoRota from "./casamento/casamento";
 import Noivado from "./noivado/noivado";
 import Namoro from "./namoro/namoro";
 import Amante from "./amante/amante";
@@ -99,11 +98,6 @@ const layoutsItems = [
 ];
 
 const AniversarioRoutes: React.FC = () => {
-  const Element = (item: string) => {
-    const normalizedStr = item.replace(/[^a-zA-Z0-9]/g, "").toLowerCase();
-    return "/" + normalizedStr;
-  };
-
   return (
     <Routes>
       <Route path="/" element={<Aniversario layoutsItems={layoutsItems} />} />
@@ -139,7 +133,6 @@ const AniversarioRoutes: React.FC = () => {
       <Route path="/esposaesposo" element={<EsposaEsposo />} />
       <Route path="/noivanoivo" element={<NoivaNoivo />} />
       <Route path="/exnamoradoaexesposoa" element={<ExNamoradoExEsposo />} />
-      <Route path="/casamento" element={<CasamentoRota />} />
       <Route path="/noivado" element={<Noivado />} />
       <Route path="/namoro" element={<Namoro />} />
       <Route path="/amante" element={<Amante />} />
