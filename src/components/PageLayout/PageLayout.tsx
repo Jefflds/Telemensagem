@@ -3,12 +3,11 @@ import {
   Button,
   CenteredParagraph,
   ColoredSpan,
-  Container,
   Content,
   StrongSpan,
 } from "./PageLayout.styles";
 import { Link } from "react-router-dom";
-
+import { Container } from "react-bootstrap";
 interface ItemsProps {
   title: string;
   buttonValues: string[];

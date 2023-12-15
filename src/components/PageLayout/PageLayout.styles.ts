@@ -4,9 +4,6 @@ export const Content = styled.div`
   padding: 60px 0;
 `;
 
-export const Container = styled.div`
-  margin: 0 auto;
-`;
 
 export const CenteredParagraph = styled.p`
   text-align: center;
