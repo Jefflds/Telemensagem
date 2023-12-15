@@ -93,22 +93,8 @@ const Header: React.FC = () => {
                 >
                   Datas Especiais
                 </Nav.Link>
-                <Nav.Link
-                  as={Link}
-                  to="/duvidas"
-                  onClick={() => handleNavItemClick("/duvidas")}
-                  className={location.pathname === "/duvidas" ? "active" : ""}
-                >
-                  Dúvidas
-                </Nav.Link>
-                <Nav.Link
-                  as={Link}
-                  to="/contato"
-                  onClick={() => handleNavItemClick("/contato")}
-                  className={location.pathname === "/contato" ? "active" : ""}
-                >
-                  Contato
-                </Nav.Link>
+
+                
               </Nav>
             </Navbar.Collapse>
           </Container>

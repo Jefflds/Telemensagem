@@ -10,7 +10,7 @@ export const ListenOnlineContainer = styled.div`
   }
 
   .icon {
-    background-color: #b0228a;
+    background-color: #D00100;
     border-radius: 50%;
     width: 75px;
     height: 75px;
@@ -33,7 +33,7 @@ export const ListenOnlineContainer = styled.div`
     span {
       text-decoration: underline;
       font-size: 14pt;
-      color: #800080;
+      color: #D00100;
     }
   }
 

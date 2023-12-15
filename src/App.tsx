@@ -6,8 +6,7 @@ import Evangelico from "./routes/Evagelicas/Evangelicas";
 import Variedades from "./routes/Variadas/Variadas";
 import Lgbt from "./routes/Lgbt/Lgbt";
 import DataEspeciais from "./routes/DatasEspeciais/DatasEspeciais";
-import Duvidas from "./routes/duvidas/duvidas";
-import Contato from "./routes/contato/contato";
+
 import Banner from "./layout/Banner/Banner";
 import Header from "./layout/Header/Header";
 import Footer from "./layout/Footer/Footer";
@@ -27,8 +26,7 @@ const App: React.FC = () => {
         <Route path="/variadas" element={<Variedades />} />
         <Route path="/lgbt" element={<Lgbt />} />
         <Route path="/datasespeciais" element={<DataEspeciais />} />
-        <Route path="/duvidas" element={<Duvidas />} />
-        <Route path="/contato" element={<Contato />} />
+
       </Routes>
       <Footer />
     </Router>
