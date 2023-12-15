@@ -9,6 +9,9 @@ export const TitleWithLineContainer = styled.div`
     display: table;
     white-space: pre !important;
     width: 100% !important;
+    color: #c888b7;
+ 
+
 
     .title {
       margin-right: 20px;

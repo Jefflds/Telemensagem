@@ -33,15 +33,21 @@ export const HomeContainer = styled.section`
     transition: all 0.2s ease-in-out;
   }
 
+  p{
+    color: #c888b7;
+  }
+
   .DuvidasEpedidos {
     p {
       font-weight: 800;
+      color: #b0228a;
     }
     span {
       svg {
         margin-left: 1%;
         margin-bottom: 2px;
         fill: #25d366;
+        
       }
     }
   }

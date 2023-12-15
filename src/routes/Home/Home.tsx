@@ -30,8 +30,7 @@ const Home: React.FC = () => {
             </Col>
             <Col sm={12} className="text-center">
               <p>
-                Respeito, Dedicação e Qualidade. Transformando momentos,
-                cultivando sentimentos e encantando corações.
+              Demonstre todo seu amor através de palavras que tocam o coração, dedicamos-nos a expressar sentimentos profundos. Nossas mensagens capturam a essência do amor. Surpreenda e encante aqueles que você ama, trazendo o amor das palavras à vida.
               </p>
             </Col>
             <Col sm={12} className="text-center">

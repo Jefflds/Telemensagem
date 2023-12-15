@@ -1,5 +1,6 @@
 import styled from "styled-components";
 
+
 export const Content = styled.div`
   padding: 60px 0;
 `;
@@ -12,11 +13,11 @@ export const CenteredParagraph = styled.p`
 export const StrongSpan = styled.span`
   font-size: 14pt;
   font-weight: bold;
-  color: #800080;
+  color: #083370; 
 `;
 
 export const ColoredSpan = styled.span`
-  color: #e4d3e8;
+    color: #083370; 
 `;
 
 export const Button = styled.button`

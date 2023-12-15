@@ -1,3 +1,4 @@
+import React from "react";
 import { TitleWithLineContainer } from "./Texts.styles";
 
 interface TitleWithLineProps {
