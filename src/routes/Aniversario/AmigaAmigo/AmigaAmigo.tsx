@@ -1,6 +1,6 @@
 import React from "react";
 import PageAudioLayout from "../../../components/PageAudioLayout/PageAudioLayout";
-import Audio from "../../../assets/Msgaudios/Aniversário/Aniversá<rio-Amiga-Amigo />
+import Audio from "../../../assets/Msgaudios/Aniversário/Aniversário-Amiga-Amigo/Telemensagem1";
 
 
 const audioData = [
