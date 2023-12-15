@@ -32,6 +32,9 @@ export const HomeContainer = styled.section`
     -ms-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
   }
+  strong{
+    color: #530000;
+  }
 
   p{
     color: #D00100;
