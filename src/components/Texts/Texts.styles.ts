@@ -9,7 +9,7 @@ export const TitleWithLineContainer = styled.div`
     display: table;
     white-space: pre !important;
     width: 100% !important;
-    color: #c888b7;
+    color: #D00100;
  
 
 
@@ -26,7 +26,7 @@ export const TitleWithLineContainer = styled.div`
 
     &::before {
       background: none repeat scroll 0 0 #ffffff;
-      border: 2px solid #c888b7;
+      border: 2px solid #D00100;
       border-radius: 30px;
       content: "";
       display: block;
@@ -38,7 +38,7 @@ export const TitleWithLineContainer = styled.div`
     .line {
       margin-left: 9px;
       height: 1px !important;
-      background: #c888b7;
+      background: #D00100;
       display: block;
       width: 100%;
       margin-top: 4px;

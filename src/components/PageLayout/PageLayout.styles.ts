@@ -1,6 +1,5 @@
 import styled from "styled-components";
-
-
+import { rgba } from "polished";
 export const Content = styled.div`
   padding: 60px 0;
 `;
@@ -13,15 +12,15 @@ export const CenteredParagraph = styled.p`
 export const StrongSpan = styled.span`
   font-size: 14pt;
   font-weight: bold;
-  color: #083370; 
+  color: #AC0402; 
 `;
 
 export const ColoredSpan = styled.span`
-    color: #083370; 
+    color: #AC0402; 
 `;
 
 export const Button = styled.button`
-  background-color: #b0228a;
+  background-color: #AC0402;
   border: 0;
   border-radius: 3.5em;
   color: #fff !important;
@@ -46,7 +45,10 @@ export const Button = styled.button`
   -ms-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 
+
+ 
+
   &:hover {
-    background: #c52299;
+    background: ${rgba("#D00100", 0.7)} ;
   }
 `;
