@@ -18,7 +18,11 @@ const layoutsItems = [
 ];
 
 const DataEspeciais: React.FC = () => {
-  return <PageLayout layoutsItems={layoutsItems} />;
+  return (
+    <>
+      <PageLayout layoutsItems={layoutsItems} />
+    </>
+  );
 };
 
 export default DataEspeciais;

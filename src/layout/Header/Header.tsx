@@ -2,7 +2,7 @@ import  { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Navbar, Container, Nav } from "react-bootstrap";
 import { HeaderNav } from "./Header.style";
-
+import React from "react";
 
 const Header: React.FC = () => {
   const location = useLocation();
@@ -85,10 +85,10 @@ const Header: React.FC = () => {
                 </Nav.Link>
                 <Nav.Link
                   as={Link}
-                  to="/datasEspeciais"
-                  onClick={() => handleNavItemClick("/datasEspeciais")}
+                  to="/datasespeciais"
+                  onClick={() => handleNavItemClick("/datasespeciais")}
                   className={
-                    location.pathname === "/datasEspeciais" ? "active" : ""
+                    location.pathname === "/datasespeciais" ? "active" : ""
                   }
                 >
                   Datas Especiais
