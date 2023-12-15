@@ -1,5 +1,7 @@
 import React from "react";
 import PageAudioLayout from "../../../components/PageAudioLayout/PageAudioLayout";
+import Audio from "../../../assets/Msgaudios/Aniversário/Aniversá<rio-Amiga-Amigo />
+
 
 const audioData = [
     {
@@ -9,7 +11,7 @@ const audioData = [
         {
           id: "01",
           subTitle: "Aniversário Amiga",
-          src: "../../assets/audios/Aniversario/Amiga-Amigo/Telemensagem-SPP-(00).mp3",
+          src: Audio,
         },
       ],
     },
