@@ -13,7 +13,7 @@ interface ItemsProps {
   buttonValues: string[];
 }
 
-interface PageLayoutProps {
+export interface PageLayoutProps {
   layoutsItems: ItemsProps[];
 }
 

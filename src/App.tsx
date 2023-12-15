@@ -1,7 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./routes/Home/Home";
-import Aniversario from "./routes/Aniversario/Aniversario";
 
 import Evangelico from "./routes/Evagelicas/Evangelicas";
 import Variedades from "./routes/Variadas/Variadas";
@@ -11,9 +10,9 @@ import Duvidas from "./routes/duvidas/duvidas";
 import Contato from "./routes/contato/contato";
 import Banner from "./layout/Banner/Banner";
 import Header from "./layout/Header/Header";
-
 import Footer from "./layout/Footer/Footer";
 import Romanticos from "./routes/Romanticos/Romanticos";
+import AniversarioRoutes from "./routes/Aniversario/AniversarioRoutes";
 
 const App: React.FC = () => {
   return (
@@ -22,7 +21,7 @@ const App: React.FC = () => {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/aniversario" element={<Aniversario />} />
+        <Route path="/aniversario/*" element={<AniversarioRoutes />} />
         <Route path="/romanticas" element={<Romanticos />} />
         <Route path="/evangelicas" element={<Evangelico />} />
         <Route path="/variadas" element={<Variedades />} />
