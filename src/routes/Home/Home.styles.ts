@@ -42,10 +42,7 @@ export const HomeContainer = styled.section`
   }
 
   .DuvidasEpedidos {
-    p {
-      font-weight: 800;
-      color: #D00100;
-    }
+   
     span {
       svg {
         margin-left: 1%;
@@ -61,4 +58,16 @@ export const HomeContainer = styled.section`
     color: #D00100;
     font-weight: bold;
   }
+`;
+
+
+export const Text = styled.h1`
+      font-weight: 700;
+      font-size: 25px;
+      color: #D00100;
+`;
+
+export const Text2 = styled.p`
+font-weight: 500;
+color: #fff;
 `;

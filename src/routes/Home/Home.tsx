@@ -1,12 +1,11 @@
 
 import { Col, Container, Row } from "react-bootstrap";
 import { TitleWithLine } from "../../components/Texts/Texts";
-import { HomeContainer } from "./Home.styles";
+import { HomeContainer, Text, Text2 } from "./Home.styles";
 
 import React from "react";
 
-import { FaWhatsapp } from "react-icons/fa";
-import TalkWithUs from "../../assets/TalkWithUs.svg";
+
 import whastapp from "../../assets/whatsapp.png";
 import ListenOnline from "../../components/ListenOnline/ListenOnline";
 
@@ -42,7 +41,23 @@ const Home: React.FC = () => {
             </Col>
           </section>
           <section className="mt-4 mb-4">
+
+
+            <Col sm={12}
+              className="text-center DuvidasEpedidos d-flex flex-column">
+                <Text>Escolha do vídeo:</Text>
+               <Text2>Você envia 12 fotos dos momentos mais marcantes, escolhe um tema que melhor expresse a emoção de suas fotos, temos diversos modelos adequados a cada momento.</Text2>
+               
+               <Text>Escolha da mensagem:</Text>
+               <Text2>Você escolhe uma de nossas mensagens prontas ou também pode montar uma com a sua música preferida.</Text2>
+
+                <Text>AGORA PODE DEIXAR COM A GENTE!</Text>
+                <Text2>MONTAMOS UMA EXPERIÊNCIA ÚNICA DE EMOÇÃO QUE PODE SER GUARDADA PARA A VIDA TODA!</Text2>
+
+                
+            </Col>
             <Col sm={12}>
+              
               <TitleWithLine title="Dúvidas e Pedidos" />
             </Col>
             <Col
@@ -60,6 +75,8 @@ const Home: React.FC = () => {
                 />
               </a>
             </Col>
+
+            
           </section>
           <section className="mt-4 mb-4 text-center">
             <h2>Ouça Online!</h2>
