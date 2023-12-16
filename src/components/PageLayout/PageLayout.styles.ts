@@ -10,17 +10,17 @@ export const CenteredParagraph = styled.p`
 `;
 
 export const StrongSpan = styled.span`
-  font-size: 14pt;
+  font-size: 16pt;
   font-weight: bold;
-  color: #AC0402; 
+  color: #000; 
 `;
 
 export const ColoredSpan = styled.span`
-    color: #AC0402; 
+    color: #000; 
 `;
 
 export const Button = styled.button`
-  background-color: #AC0402;
+  background-color: #F3A8C2;
   border: 0;
   border-radius: 3.5em;
   color: #fff !important;
@@ -49,6 +49,6 @@ export const Button = styled.button`
  
 
   &:hover {
-    background: ${rgba("#D00100", 0.7)} ;
+    background: #F3A8C2;
   }
 `;

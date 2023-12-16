@@ -1,4 +1,4 @@
-import  { useState } from "react";
+import  { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Navbar, Container, Nav } from "react-bootstrap";
 import { HeaderNav } from "./Header.style";
@@ -13,8 +13,24 @@ const Header: React.FC = () => {
     setActiveLink(link);
   };
 
+  
+  const [isFixed, setIsFixed] = useState(false);
+
+  const handleScroll = () => {
+    const scrollPosition = window.scrollY;
+    const shouldFix = scrollPosition > 0; // ou qualquer outra condição que você deseje
+    setIsFixed(shouldFix);
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <HeaderNav >
+    <HeaderNav className={isFixed ? "fixed" : ""}>
       <Container  fluid id="container1 row" className="mx-auto">
         <Navbar expand="lg">
           <Container fluid>

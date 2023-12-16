@@ -10,14 +10,14 @@ export const ListenOnlineContainer = styled.div`
   }
 
   .icon {
-    background-color: #D00100;
+    background-color: #F3A8C2;
     border-radius: 50%;
     width: 75px;
     height: 75px;
     margin-right: 5%;
 
     svg {
-      fill: #c888b7;
+      fill: #fff;
     }
   }
 

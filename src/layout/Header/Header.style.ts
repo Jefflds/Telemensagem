@@ -1,10 +1,18 @@
 import styled from "styled-components";
 
 export const HeaderNav = styled.nav`
-  background: #EEEEEE ;
-
-  
+   background: #eeeeee;
   display: flex;
+  width: 100%;
+  transition: background 0.3s;
+
+  &.fixed {
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+  }
+  
+ 
   .nav-link {
     color: #000; 
     height: 100%;
