@@ -12,6 +12,7 @@ import Header from "./layout/Header/Header";
 import Footer from "./layout/Footer/Footer";
 import Romanticos from "./routes/Romanticos/Romanticos";
 import AniversarioRoutes from "./routes/Aniversario/AniversarioRoutes";
+import ButtonWhats from "./components/buttonWhats/buttonWhats";
 
 const App: React.FC = () => {
   return (
@@ -26,8 +27,10 @@ const App: React.FC = () => {
         <Route path="/variadas" element={<Variedades />} />
         <Route path="/lgbt" element={<Lgbt />} />
         <Route path="/datasespeciais" element={<DataEspeciais />} />
+       
 
       </Routes>
+      <ButtonWhats/>
       <Footer />
     </Router>
   );

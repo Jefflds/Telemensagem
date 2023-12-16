@@ -9,8 +9,7 @@ import {
 } from "./Footer.styled";
 
 
-import bancos from "../../assets/bancos.png";
-import coracao from "../../assets/imgFooter/coracao.png";
+
 import whatsapp from "../../assets/whatsapp.png";
 
 
