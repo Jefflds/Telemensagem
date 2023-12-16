@@ -4,8 +4,8 @@ import {
   FooterColumn,
   FooterContainer,
   FooterSocial,
-  FooterTop,
-  StyledLink,
+  FooterTop
+  
 } from "./Footer.styled";
 
 import whatsapp from "../../assets/whatsapp.png";

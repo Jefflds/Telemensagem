@@ -59,8 +59,6 @@ export const HomeContainer = styled.section`
     color: #F3A8C2 ;
     font-weight: bold;
   }
-
- 
 `;
 
 

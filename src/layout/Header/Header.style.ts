@@ -6,6 +6,7 @@ export const HeaderNav = styled.nav`
   width: 100%;
   transition: background 0.3s;
   font-weight: 600;
+ 
 
   &.fixed {
     position: fixed;

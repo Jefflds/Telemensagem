@@ -1,10 +1,11 @@
 
-import Logo from "../../assets/Logo.svg";
+import React from "react";
+import Logo from "../../assets/Loucura de amor.png";
 
 const Banner: React.FC = () => {
   return (
     <BannerContainer className="d-flex justify-content-center align-items-center">
-      <img src={Logo} alt="Logo" className="img-fluid" width={200} />
+      <img src={Logo} alt="Logo" className="img-fluid" width={400} />
     </BannerContainer>
   );
 };
