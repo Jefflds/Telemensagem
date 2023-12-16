@@ -11,6 +11,8 @@ import {
 
 
 import whatsapp from "../../assets/whatsapp.png";
+import { StyledButtonWhatsapp } from "../../components/buttonWhats/buttonWhats2.styled";
+import { FaWhatsapp } from "react-icons/fa";
 
 
 const Footer: React.FC = () => {
@@ -35,47 +37,48 @@ const Footer: React.FC = () => {
             </FooterColumn>
 
             <FooterColumn className="col-md-4 mb-4">
-              {/* <h3>EXCLUSIVIDADE!</h3> */}
+              <h3>Serviços Excluisivos!</h3> 
               <p>
                
-                &nbsp;Troca de fundo musical;
+                Troca de fundo musical;
               </p>
               <p>
-               
-                &nbsp;Reação Gravada;
+                Reação Gravada;
               </p>
               <p>
-               
-                &nbsp;Telemensagens Personalizadas.
+                Telemensagens Personalizadas.
               </p>
-              <p className="center">
-                <StyledLink
-                  href="https://api.whatsapp.com/send?1=pt_BR&phone=5511963665212"
-                  target="_blank"
-                >
-                 <img src={whatsapp} alt="" width="70" height="auto" />
-                </StyledLink>
-              </p>
+              <p>Video fotos Musicais</p>
+
+              <a
+                href="https://api.whatsapp.com/send?1=pt_BR&phone=5511963665212"
+                target="blank"
+              >
+                <StyledButtonWhatsapp>
+                  <FaWhatsapp /> WhastApp
+                </StyledButtonWhatsapp>
+              </a>
             </FooterColumn>
 
             <FooterColumn className="col-md-4">
               <h3>PAGAMENTO</h3>
               <p>
-                PIX, Transferência, Depósito em Conta, Cartões de Crédito e
-                Boleto Bancário.
+                PIX, Transferência, Depósito em Conta e Cartões de Crédito.
               </p>
              
               <p>
                 <strong>Dúvidas e pedidos:</strong>
               </p>
-              <p>
+              <p >
                 (11) 9 6366-5212 &nbsp;
-                <img
-                  src={whatsapp}
-                  alt=""
-                  width="22"
-                  height="26"
-                />
+                <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5511963665212" about="blank"><img  
+                
+                src={whatsapp}
+                alt=""
+                width="22"
+                height="26"
+              /></a>
+               
               </p><p style={{ textTransform: 'lowercase' }}>desstak@hotmail.com</p>
 
 
