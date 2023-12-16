@@ -26,15 +26,17 @@ export const FooterColumn = styled.div`
 
   h3 {
     font-size: 24px;
-    text-decoration: underline;
+    
     margin-bottom: 20px;
     color: #000;
+    
   }
 
   p {
     font-size: 16px;
     color: #000;
     text-transform: capitalize;
+    font-weight: 600;
   }
 
   span {

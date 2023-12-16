@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { rgba } from "polished";
+
 export const Content = styled.div`
   padding: 60px 0;
 `;
@@ -49,6 +49,7 @@ export const Button = styled.button`
  
 
   &:hover {
-    background: #F3A8C2;
+    opacity: 0.8;
+    transform: scale(0.9);
   }
 `;
