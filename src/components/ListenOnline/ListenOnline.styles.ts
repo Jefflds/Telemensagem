@@ -31,9 +31,9 @@ export const ListenOnlineContainer = styled.div`
     }
 
     span {
-      text-decoration: underline;
+      
       font-size: 14pt;
-      color: #D00100;
+      color: #fff;
     }
   }
 
@@ -48,4 +48,30 @@ export const ListenOnlineContainer = styled.div`
       width: 33%; 
     }
   }
+`;
+
+export const Styledbuttons = styled.button`
+
+font-family: "Cabin", Sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    background-color:  #F3A8C2!important;
+    border: none;
+    width: 200px;
+    
+    &:hover {
+        
+        color: #ffffff;
+        transform: scale(0.9);
+        background-color:  #F3A8C2!important;
+        
+        
+    }
+    &.active{
+        background-color:  #F3A8C2!important;
+        opacity: 0.8;
+    }
+
+
+
 `;

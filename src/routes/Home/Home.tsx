@@ -50,14 +50,16 @@ const Home: React.FC = () => {
             >
               <p>Whatsapp:</p>
 
-              <a
-                href="https://api.whatsapp.com/send?1=pt_BR&phone=5511963665212"
-                target="blank"
-              >
-                <StyledButtonWhatsapp>
-                  <FaWhatsapp /> WhastApp
-                </StyledButtonWhatsapp>
-              </a>
+              <div className="d-flex justify-content-center align-items-center">
+      <a
+        href="https://api.whatsapp.com/send?1=pt_BR&phone=5511963665212"
+        target="_blank"
+      >
+        <StyledButtonWhatsapp>
+          <FaWhatsapp /> WhastApp
+        </StyledButtonWhatsapp>
+      </a>
+    </div>
             </Col>
           </section>
           <section className="mt-4 mb-4 text-center">

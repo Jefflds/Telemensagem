@@ -17,7 +17,7 @@ export const FooterTop = styled.div`
 
 export const FooterBottom = styled.div`
   background-color: #F3A8C2;
-  color: #000;
+  color: #fff;
   padding: 10px 0;
 `;
 

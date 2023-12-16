@@ -59,6 +59,8 @@ export const HomeContainer = styled.section`
     color: #F3A8C2 ;
     font-weight: bold;
   }
+
+ 
 `;
 
 
@@ -71,4 +73,6 @@ export const Text = styled.h1`
 export const Text2 = styled.p`
 font-weight: 500;
 color: #fff;
+
+
 `;

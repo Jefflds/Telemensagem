@@ -8,12 +8,9 @@ import {
   StyledLink,
 } from "./Footer.styled";
 
-
-
 import whatsapp from "../../assets/whatsapp.png";
 import { StyledButtonWhatsapp } from "../../components/buttonWhats/buttonWhats2.styled";
 import { FaWhatsapp } from "react-icons/fa";
-
 
 const Footer: React.FC = () => {
   return (
@@ -33,21 +30,13 @@ const Footer: React.FC = () => {
                 <br />
                 08:00h às 22:00h
               </p>
-              
             </FooterColumn>
 
             <FooterColumn className="col-md-4 mb-4">
-              <h3>Serviços Excluisivos!</h3> 
-              <p>
-               
-                Troca de fundo musical;
-              </p>
-              <p>
-                Reação Gravada;
-              </p>
-              <p>
-                Telemensagens Personalizadas.
-              </p>
+              <h3>Serviços Excluisivos!</h3>
+              <p>Troca de fundo musical;</p>
+              <p>Reação Gravada;</p>
+              <p>Telemensagens Personalizadas.</p>
               <p>Videos fotos Musicais</p>
 
               <a
@@ -62,25 +51,21 @@ const Footer: React.FC = () => {
 
             <FooterColumn className="col-md-4">
               <h3>PAGAMENTO</h3>
-              <p>
-                PIX, Transferência, Depósito em Conta e Cartões de Crédito.
-              </p>
-             
+              <p>PIX, Transferência, Depósito em Conta e Cartões de Crédito.</p>
+
               <p>
                 <strong>Dúvidas e pedidos:</strong>
               </p>
-              <p >
+              <p>
                 (11) 9 6366-5212 &nbsp;
-                <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5511963665212" about="blank"><img  
-                
-                src={whatsapp}
-                alt=""
-                width="22"
-                height="26"
-              /></a>
-               
-              </p><p style={{ textTransform: 'lowercase' }}>desstak@hotmail.com</p>
-
+                <a
+                  href="https://api.whatsapp.com/send?1=pt_BR&phone=5511963665212"
+                  about="blank"
+                >
+                  <img src={whatsapp} alt="" width="22" height="26" />
+                </a>
+              </p>
+              <p style={{ textTransform: "lowercase" }}>desstak@hotmail.com</p>
 
               <p>&nbsp;</p>
             </FooterColumn>
@@ -94,21 +79,11 @@ const Footer: React.FC = () => {
       </FooterTop>
 
       <FooterBottom>
-        <div className="container d-flex ">
-          <div className="col-md-8 d-flex p ">
-            Copyright &copy; 2023 -
+        <div className="container d-flex justify-content-center align-items-center">
+          <div className="col-md-8 d-flex p text-center">
+            Copyright &copy; 2023 -{" "}
             <strong>Loucura de Amor | Telemensagens. </strong> Todos os direitos
             reservados.
-          </div>
-
-          <div className="col-md-8 centro d-flex">
-            <StyledLink
-              href="https://www.instagram.com/jefflds_company/"
-              className="empresa"
-              target="_blank"
-            >
-              Created by: HastyDev
-            </StyledLink>
           </div>
         </div>
       </FooterBottom>
