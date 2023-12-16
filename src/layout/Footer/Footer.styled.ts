@@ -5,7 +5,7 @@ export const FooterStyled = styled.div`
 `;
 
 export const FooterContainer = styled.div`
-  background-color: #530000;
+  background-color: #EEEEEE;
   * {
     overflow: hidden;
   }
@@ -16,8 +16,8 @@ export const FooterTop = styled.div`
 `;
 
 export const FooterBottom = styled.div`
-  background-color: #D00100;
-  color: #ffffff;
+  background-color: #F3A8C2;
+  color: #000;
   padding: 10px 0;
 `;
 
@@ -28,23 +28,23 @@ export const FooterColumn = styled.div`
     font-size: 24px;
     text-decoration: underline;
     margin-bottom: 20px;
-    color: #fff;
+    color: #000;
   }
 
   p {
     font-size: 16px;
-    color: #fff;
+    color: #000;
     text-transform: capitalize;
   }
 
   span {
     font-size: 16px;
-    color: #212529;
+    color: #000;
   }
 
   strong {
     font-size: 16px;
-    color: #fff;
+    color: #000;
   }
 `;
 

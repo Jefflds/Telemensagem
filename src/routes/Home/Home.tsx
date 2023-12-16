@@ -24,47 +24,37 @@ const Home: React.FC = () => {
     <HomeContainer>
       <Container>
         <Row>
-          <section className="mt-4 mb-4">
-            <Col sm={12}>
-              <TitleWithLine title="Bem vindo ao nosso site!" />
+          <section className="mt-4 mb-4" >
+            <Col sm={12} className="text-center">
+              <TitleWithLine title="Telemensagem Para todas ocasiões!" /> 
             </Col>
             <Col sm={12} className="text-center">
               <p>
               Demonstre todo seu amor através de palavras que tocam o coração, dedicamos-nos a expressar sentimentos profundos. Nossas mensagens capturam a essência do amor. Surpreenda e encante aqueles que você ama, trazendo o amor das palavras à vida.
               </p>
             </Col>
+
             <Col sm={12} className="text-center">
-              <h4>
+              {/* <h4>
                 <strong>NOVIDADE!</strong>
-              </h4>
-              <button>Video Mensagem</button>
+              </h4> */}
+             
             </Col>
           </section>
+          
           <section className="mt-4 mb-4">
 
 
-            <Col sm={12}
-              className="text-center DuvidasEpedidos d-flex flex-column">
-                <Text>Escolha do vídeo:</Text>
-               <Text2>Você envia 12 fotos dos momentos mais marcantes, escolhe um tema que melhor expresse a emoção de suas fotos, temos diversos modelos adequados a cada momento.</Text2>
-               
-               <Text>Escolha da mensagem:</Text>
-               <Text2>Você escolhe uma de nossas mensagens prontas ou também pode montar uma com a sua música preferida.</Text2>
-
-                <Text>AGORA PODE DEIXAR COM A GENTE!</Text>
-                <Text2>MONTAMOS UMA EXPERIÊNCIA ÚNICA DE EMOÇÃO QUE PODE SER GUARDADA PARA A VIDA TODA!</Text2>
-
-                
-            </Col>
+          
             <Col sm={12}>
               
-              <TitleWithLine title="Dúvidas e Pedidos" />
+              {/* <TitleWithLine title="Dúvidas e Pedidos" /> */}
             </Col>
             <Col
               sm={12}
               className="text-center DuvidasEpedidos d-flex flex-column"
             >
-              <p>Em nosso Whatsapp ou nos Telefones:</p>
+              <p>Whatsapp:</p>
              
               <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5511963665212" target="blank">
                 <img
@@ -79,7 +69,7 @@ const Home: React.FC = () => {
             
           </section>
           <section className="mt-4 mb-4 text-center">
-            <h2>Ouça Online!</h2>
+            <h2>Escute agora!</h2>
             <div>
               <ListenOnline ListenItems={ListenItems} />
             </div>

@@ -1,28 +1,29 @@
 import styled from "styled-components";
-import { rgba, shade } from "polished";
+
 export const HeaderNav = styled.nav`
-  background: ${shade(0.6, "#D00100" )} ;
+  background: #EEEEEE ;
+
   
   display: flex;
   .nav-link {
-    color: #Ffff; 
+    color: #000; 
     height: 100%;
     transition: .5s all;
 
 
     &:hover {
-      color: #fff; 
-      background: ${rgba("#D00100", 0.5)} ;
+      color: #000; 
+      background: #F3A8C2 ;
       border-radius: 10px;
-      border-bottom: 5px solid #D00100 ;
+      border-bottom: 5px solid #F3A8C2 ;
       
     }
 
     &.active {
-      color: #fff; 
-      background: ${rgba("#D00100", 0.5)} ;
+      color: #000; 
+      background:  #F3A8C2;
       border-radius: 10px;
-      border-bottom: 5px solid ${rgba("#D00100", 0.5)};
+      border-bottom: 5px solid #F4E7F5;
       
     }
   }

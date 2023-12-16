@@ -32,41 +32,22 @@ const Footer: React.FC = () => {
                 <br />
                 08:00h às 22:00h
               </p>
-              <p>
-                <strong>Observação:</strong>
-                <br />
-                Passamos telemensagens fora do horário de atendimento
-              </p>
+              
             </FooterColumn>
 
             <FooterColumn className="col-md-4 mb-4">
-              <h3>EXCLUSIVIDADE!</h3>
+              {/* <h3>EXCLUSIVIDADE!</h3> */}
               <p>
-                <img
-                  src={coracao}
-                  alt=""
-                  width="21"
-                  height="19"
-                />
+               
                 &nbsp;Troca de fundo musical;
               </p>
               <p>
-                <img
-                  src={coracao}
-                  alt=""
-                  width="21"
-                  height="19"
-                />
+               
                 &nbsp;Reação Gravada;
               </p>
               <p>
-                <img
-                  src={coracao}
-                  alt=""
-                  width="21"
-                  height="19"
-                />
-                &nbsp;Telemensagem Personalizada (com sua voz).
+               
+                &nbsp;Telemensagens Personalizadas.
               </p>
               <p className="center">
                 <StyledLink
@@ -79,19 +60,12 @@ const Footer: React.FC = () => {
             </FooterColumn>
 
             <FooterColumn className="col-md-4">
-              <h3>FORMAS DE PAGAMENTO</h3>
+              <h3>PAGAMENTO</h3>
               <p>
                 PIX, Transferência, Depósito em Conta, Cartões de Crédito e
                 Boleto Bancário.
               </p>
-              <p>
-                <img
-                      src={bancos}
-                  alt=""
-                  width="100%"
-                  height="auto"
-                />
-              </p>
+             
               <p>
                 <strong>Dúvidas e pedidos:</strong>
               </p>

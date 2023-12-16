@@ -7,7 +7,7 @@ export const HomeContainer = styled.section`
     overflow: hidden;
   }
   button {
-    background-color: #D00100;
+    background-color: #F3A8C2;
     border: 0;
     border-radius: 3.5em;
     color: #fff !important;
@@ -33,11 +33,12 @@ export const HomeContainer = styled.section`
     transition: all 0.2s ease-in-out;
   }
   strong{
-    color: #530000;
+    color: #F3A8C2;
   }
 
   p{
-    color: #D00100;
+    font-weight: 600;
+    color: #000;
     font-size:13pt;
   }
 
@@ -55,7 +56,7 @@ export const HomeContainer = styled.section`
 
   h2 {
     font-size: 3rem;
-    color: #D00100;
+    color: #F3A8C2 ;
     font-weight: bold;
   }
 `;
@@ -64,7 +65,7 @@ export const HomeContainer = styled.section`
 export const Text = styled.h1`
       font-weight: 700;
       font-size: 25px;
-      color: #D00100;
+      color: #F3A8C2;
 `;
 
 export const Text2 = styled.p`
