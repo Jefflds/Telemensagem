@@ -48,7 +48,7 @@ const Footer: React.FC = () => {
               <p>
                 Telemensagens Personalizadas.
               </p>
-              <p>Video fotos Musicais</p>
+              <p>Videos fotos Musicais</p>
 
               <a
                 href="https://api.whatsapp.com/send?1=pt_BR&phone=5511963665212"
