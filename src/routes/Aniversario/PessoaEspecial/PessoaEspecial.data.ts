@@ -1,23 +1,25 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
+/* eslint-disable @typescript-eslint/ban-ts-comment */
 // @ts-ignore
-import AudioFile1 from "../../../assets/Msgaudios/Aniversário/Aniversário-Pessoas-especiais/Telemensagem(1).mp3";
+import AudioFile1 from "../../../assets/Msgaudios/Aniversario/Aniversario-Pessoas-especiais/Telemensagem(1).mp3";
 // @ts-ignore
-import AudioFile2 from "../../../assets/Msgaudios/Aniversário/Aniversário-Pessoas-especiais/Telemensagem(2).mp3";
+import AudioFile2 from "../../../assets/Msgaudios/Aniversario/Aniversario-Pessoas-especiais/Telemensagem(2).mp3";
 // @ts-ignore
-import AudioFile3 from "../../../assets/Msgaudios/Aniversário/Aniversário-Pessoas-especiais/Telemensagem(3).mp3";
+import AudioFile3 from "../../../assets/Msgaudios/Aniversario/Aniversario-Pessoas-especiais/Telemensagem(3).mp3";
 // @ts-ignore
-import AudioFile4 from "../../../assets/Msgaudios/Aniversário/Aniversário-Pessoas-especiais/Telemensagem(4).mp3";
+import AudioFile4 from "../../../assets/Msgaudios/Aniversario/Aniversario-Pessoas-especiais/Telemensagem(4).mp3";
 // @ts-ignore
-import AudioFile5 from "../../../assets/Msgaudios/Aniversário/Aniversário-Pessoas-especiais/Telemensagem(5).mp3";
+import AudioFile5 from "../../../assets/Msgaudios/Aniversario/Aniversario-Pessoas-especiais/Telemensagem(5).mp3";
 // @ts-ignore
-import AudioFile6 from "../../../assets/Msgaudios/Aniversário/Aniversário-Pessoas-especiais/Telemensagem(6).mp3";
+import AudioFile6 from "../../../assets/Msgaudios/Aniversario/Aniversario-Pessoas-especiais/Telemensagem(6).mp3";
 // @ts-ignore
-import AudioFile7 from "../../../assets/Msgaudios/Aniversário/Aniversário-Pessoas-especiais/Telemensagem(7).mp3";
+import AudioFile7 from "../../../assets/Msgaudios/Aniversario/Aniversario-Pessoas-especiais/Telemensagem(7).mp3";
 // @ts-ignore
-import AudioFile8 from "../../../assets/Msgaudios/Aniversário/Aniversário-Pessoas-especiais/Telemensagem(8).mp3";
+import AudioFile8 from "../../../assets/Msgaudios/Aniversario/Aniversario-Pessoas-especiais/Telemensagem(8).mp3";
 // @ts-ignore
-import AudioFile9 from "../../../assets/Msgaudios/Aniversário/Aniversário-Pessoas-especiais/Telemensagem(9).mp3";
+import AudioFile9 from "../../../assets/Msgaudios/Aniversario/Aniversario-Pessoas-especiais/Telemensagem(9).mp3";
 // @ts-ignore
-import AudioFile10 from "../../../assets/Msgaudios/Aniversário/Aniversário-Pessoas-especiais/Telemensagem(10).mp3";
+import AudioFile10 from "../../../assets/Msgaudios/Aniversario/Aniversario-Pessoas-especiais/Telemensagem(10).mp3";
 
 
 export const audioData = [

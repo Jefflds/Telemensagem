@@ -1,47 +1,46 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
-/* eslint-disable @typescript-eslint/ban-ts-comment */
+
 // @ts-ignore
-import AudioFile1 from "../../../assets/Msgaudios/Aniversário/Aniversário-Amiga-Amigo/Telemensagem1.mp3";
+import AudioFile1 from "../../../assets/Msgaudios/Aniversario/Aniversario-Amiga-Amigo/Telemensagem1.mp3";
 // @ts-ignore
-import AudioFile2 from "../../../assets/Msgaudios/Aniversário/Aniversário-Amiga-Amigo/Telemensagem2.mp3";
+import AudioFile2 from "../../../assets/Msgaudios/Aniversario/Aniversario-Amiga-Amigo/Telemensagem2.mp3";
 // @ts-ignore
-import AudioFile3 from "../../../assets/Msgaudios/Aniversário/Aniversário-Amiga-Amigo/Telemensagem3.mp3";
+import AudioFile3 from "../../../assets/Msgaudios/Aniversario/Aniversario-Amiga-Amigo/Telemensagem3.mp3";
 // @ts-ignore
-import AudioFile4 from "../../../assets/Msgaudios/Aniversário/Aniversário-Amiga-Amigo/Telemensagem4.mp3";
+import AudioFile4 from "../../../assets/Msgaudios/Aniversario/Aniversario-Amiga-Amigo/Telemensagem4.mp3";
 // @ts-ignore
-import AudioFile5 from "../../../assets/Msgaudios/Aniversário/Aniversário-Amiga-Amigo/Telemensagem5.mp3";
+import AudioFile5 from "../../../assets/Msgaudios/Aniversario/Aniversario-Amiga-Amigo/Telemensagem5.mp3";
 // @ts-ignore
-import AudioFile6 from "../../../assets/Msgaudios/Aniversário/Aniversário-Amiga-Amigo/Telemensagem6.mp3";
+import AudioFile6 from "../../../assets/Msgaudios/Aniversario/Aniversario-Amiga-Amigo/Telemensagem6.mp3";
 // @ts-ignore
-import AudioFile7 from "../../../assets/Msgaudios/Aniversário/Aniversário-Amiga-Amigo/Telemensagem7.mp3";
+import AudioFile7 from "../../../assets/Msgaudios/Aniversario/Aniversario-Amiga-Amigo/Telemensagem7.mp3";
 // @ts-ignore
-import AudioFile8 from "../../../assets/Msgaudios/Aniversário/Aniversário-Amiga-Amigo/Telemensagem8.mp3";
+import AudioFile8 from "../../../assets/Msgaudios/Aniversario/Aniversario-Amiga-Amigo/Telemensagem8.mp3";
 // @ts-ignore
-import AudioFile9 from "../../../assets/Msgaudios/Aniversário/Aniversário-Amiga-Amigo/Telemensagem9.mp3";
+import AudioFile9 from "../../../assets/Msgaudios/Aniversario/Aniversario-Amiga-Amigo/Telemensagem9.mp3";
 // @ts-ignore
-import AudioFile10 from "../../../assets/Msgaudios/Aniversário/Aniversário-Amiga-Amigo/Telemensagem10.mp3";
+import AudioFile10 from "../../../assets/Msgaudios/Aniversario/Aniversario-Amiga-Amigo/Telemensagem10.mp3";
 // @ts-ignore
-import AudioFile11 from "../../../assets/Msgaudios/Aniversário/Aniversário-Amiga-Amigo/Telemensagem11.mp3";
+import AudioFile11 from "../../../assets/Msgaudios/Aniversario/Aniversario-Amiga-Amigo/Telemensagem11.mp3";
 // @ts-expect-error
-import AudioFile12 from "../../../assets/Msgaudios/Aniversário/Aniversário-Amiga-Amigo/Telemensagem12.mp3";
+import AudioFile12 from "../../../assets/Msgaudios/Aniversario/Aniversario-Amiga-Amigo/Telemensagem12.mp3";
 // @ts-ignore
-import AudioFile13 from "../../../assets/Msgaudios/Aniversário/Aniversário-Amiga-Amigo/Telemensagem13.mp3";
+import AudioFile13 from "../../../assets/Msgaudios/Aniversario/Aniversario-Amiga-Amigo/Telemensagem13.mp3";
 // @ts-ignore
-import AudioFile14 from "../../../assets/Msgaudios/Aniversário/Aniversário-Amiga-Amigo/Telemensagem14.mp3";
+import AudioFile14 from "../../../assets/Msgaudios/Aniversario/Aniversario-Amiga-Amigo/Telemensagem14.mp3";
 // @ts-ignore
-import AudioFile15 from "../../../assets/Msgaudios/Aniversário/Aniversário-Amiga-Amigo/Telemensagem15.mp3";
+import AudioFile15 from "../../../assets/Msgaudios/Aniversario/Aniversario-Amiga-Amigo/Telemensagem15.mp3";
 // @ts-ignore
-import AudioFile16 from "../../../assets/Msgaudios/Aniversário/Aniversário-Amiga-Amigo/Telemensagem16.mp3";
+import AudioFile16 from "../../../assets/Msgaudios/Aniversario/Aniversario-Amiga-Amigo/Telemensagem16.mp3";
 // @ts-ignore
-import AudioFile17 from "../../../assets/Msgaudios/Aniversário/Aniversário-Amiga-Amigo/Telemensagem17.mp3";
+import AudioFile17 from "../../../assets/Msgaudios/Aniversario/Aniversario-Amiga-Amigo/Telemensagem17.mp3";
 // @ts-ignore
-import AudioFile18 from "../../../assets/Msgaudios/Aniversário/Aniversário-Amiga-Amigo/Telemensagem18.mp3";
+import AudioFile18 from "../../../assets/Msgaudios/Aniversario/Aniversario-Amiga-Amigo/Telemensagem18.mp3";
 // @ts-ignore
-import AudioFile19 from "../../../assets/Msgaudios/Aniversário/Aniversário-Amiga-Amigo/Telemensagem19.mp3";
+import AudioFile19 from "../../../assets/Msgaudios/Aniversario/Aniversario-Amiga-Amigo/Telemensagem19.mp3";
 // @ts-ignore
-import AudioFile20 from "../../../assets/Msgaudios/Aniversário/Aniversário-Amiga-Amigo/Telemensagem20.mp3";
+import AudioFile20 from "../../../assets/Msgaudios/Aniversario/Aniversario-Amiga-Amigo/Telemensagem20.mp3";
 // @ts-ignore
-import AudioFile21 from "../../../assets/Msgaudios/Aniversário/Aniversário-Amiga-Amigo/Telemensagem21.mp3";
+import AudioFile21 from "../../../assets/Msgaudios/Aniversario/Aniversario-Amiga-Amigo/Telemensagem21.mp3";
 
 export const audioData = [
   {
