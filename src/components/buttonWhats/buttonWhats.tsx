@@ -9,6 +9,7 @@ function buttonWhats() {
         countryCode="55"
         phoneNumber="11963665212"
         animated
+        title="Whatsapp Link"
       />
     </div>
     

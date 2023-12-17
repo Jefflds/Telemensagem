@@ -4,8 +4,7 @@ import {
   FooterColumn,
   FooterContainer,
   FooterSocial,
-  FooterTop
-  
+  FooterTop,
 } from "./Footer.styled";
 
 import whatsapp from "../../assets/whatsapp.png";
@@ -33,7 +32,7 @@ const Footer: React.FC = () => {
             </FooterColumn>
 
             <FooterColumn className="col-md-4 mb-4">
-              <h3>Serviços Excluisivos!</h3>
+              <h3>Serviços Exclusivos!</h3>
               <p>Troca de fundo musical;</p>
               <p>Reação Gravada;</p>
               <p>Telemensagens Personalizadas.</p>
@@ -81,9 +80,9 @@ const Footer: React.FC = () => {
       <FooterBottom>
         <div className="container d-flex justify-content-center align-items-center">
           <div className="col-md-8 d-flex p text-center">
-            Copyright &copy; 2023 -{" "}
-            <strong>Loucura de Amor | Telemensagens. </strong> Todos os direitos
-            reservados.
+            Copyright &copy; 2023 -
+            <strong>Loucura de Amor | Telemensagens. </strong>
+            Todos os direitos reservados.
           </div>
         </div>
       </FooterBottom>
