@@ -10,22 +10,15 @@ import ComOtimismo from "./ComOtimismo/ComOtimismo";
 import PessoaDistante from "./PessoaDistante/PessoaDistante"; 
 import Cliente from "./Cliente/Cliente"; 
 import Crianca from "./Crianca/Crianca"; 
-import QuinzeAnos from "./QuinzeAnos/QuinzeAnos"; 
 import Terceiros from "./Terceiros/Terceiros";
-import TiaTio from "./tiatio/tiatio";
-import SobrinhaSobrinho from "./sobrinhasobrinho/sobrinhasobrinho";
-import PrimaPrimo from "./primaprimo/primaprimo";
-import NoivaNoivo from "./noivanoivo/noivanoivo";
-import Noivado from "./noivado/noivado";
-import Reconciliacao from "./reconciliacao/reconciliacao";
 
 const layoutsItems = [
   {
     title: "Aniversário",
     buttonValues: [
       "Amiga/Amigo",
-      "Neutro",
-      "Pessoa Especial",
+      "Antecipado",
+      "Pessoa Cliente",
     ],
   },
   {
@@ -59,14 +52,7 @@ const AniversarioRoutes: React.FC = () => {
       <Route path="/pessoadistante" element={<PessoaDistante />} />
       <Route path="/cliente" element={<Cliente />} />
       <Route path="/crianca" element={<Crianca />} />
-      <Route path="/15anos" element={<QuinzeAnos />} />
       <Route path="/terceiros" element={<Terceiros />} />
-      <Route path="/tiatio" element={<TiaTio />} />
-      <Route path="/sobrinhasobrinho" element={<SobrinhaSobrinho />} />
-      <Route path="/primaprimo" element={<PrimaPrimo />} />
-      <Route path="/noivanoivo" element={<NoivaNoivo />} />
-      <Route path="/noivado" element={<Noivado />} />
-      <Route path="/reconciliacao" element={<Reconciliacao />} />
     </Routes>
   );
 };
