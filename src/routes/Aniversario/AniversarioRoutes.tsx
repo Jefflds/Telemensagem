@@ -1,15 +1,15 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 import Aniversario from "./Aniversario";
-import AmigaAmigo from "./AmigaAmigo/AmigaAmigo"; 
+import AmigaAmigo from "./AmigaAmigo/AmigaAmigo";
 import Neutro from "./Neutro/Neutro";
 import PessoaEspecial from "./PessoaEspecial/PessoaEspecial";
-import Antecipado from "./Antecipado/Antecipado"; 
+import Antecipado from "./Antecipado/Antecipado";
 import ComGozacao from "./ComGozacao/ComGozacao";
-import ComOtimismo from "./ComOtimismo/ComOtimismo"; 
-import PessoaDistante from "./PessoaDistante/PessoaDistante"; 
-import Cliente from "./Cliente/Cliente"; 
-import Crianca from "./Crianca/Crianca"; 
+import ComOtimismo from "./ComOtimismo/ComOtimismo";
+import PessoaDistante from "./PessoaDistante/PessoaDistante";
+import Cliente from "./Cliente/Cliente";
+import Crianca from "./Crianca/Crianca";
 import Terceiros from "./Terceiros/Terceiros";
 
 const layoutsItems = [
@@ -18,25 +18,24 @@ const layoutsItems = [
     buttonValues: [
       "Amiga/Amigo",
       "Antecipado",
-      "Pessoa Cliente",
+      "Cliente",
+      "Com Gozação",
+      "Com Otimismo",
+      "Criança",
+      "Neutro",
+      "Pessoa Distante",
+      "Pessoa Especial",
+      "Terceiros",
     ],
   },
-  {
-    title: "Aniversário Familiar",
-    buttonValues: [
-      "Mãe/Pai",
-      "Filho/Filha",
-      "Irmão/Irmã",
-    ],
-  },
-  {
-    title: "Aniversário Romântico",
-    buttonValues: [
-      "Namorada/Namorado",
-      "Ficantes",
-      "Esposa/Esposo",
-    ],
-  },
+  //{
+  //   title: "Aniversário Familiar",
+  //    buttonValues: ["Mãe/Pai", "Filho/Filha", "Irmão/Irmã"],
+  //},
+  //{
+  //   title: "Aniversário Romântico",
+  //   buttonValues: ["Namorada/Namorado", "Ficantes", "Esposa/Esposo"],
+  //},
 ];
 
 const AniversarioRoutes: React.FC = () => {

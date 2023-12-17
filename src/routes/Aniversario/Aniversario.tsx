@@ -1,13 +1,11 @@
 import React from "react";
-import PageLayout, {PageLayoutProps} from "../../components/PageLayout/PageLayout";
+import PageLayout, {
+  PageLayoutProps,
+} from "../../components/PageLayout/PageLayout";
 
+interface AniversarioProps extends PageLayoutProps {}
 
-
-interface AniversarioProps extends PageLayoutProps  {
-
-}
-
-const Aniversario: React.FC<AniversarioProps> = ({layoutsItems}) => {
+const Aniversario: React.FC<AniversarioProps> = ({ layoutsItems }) => {
   return <PageLayout layoutsItems={layoutsItems} />;
 };
 
