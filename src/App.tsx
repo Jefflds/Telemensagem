@@ -5,7 +5,7 @@ import Home from "./routes/Home/Home";
 import Evangelico from "./routes/Evagelicas/Evangelicas";
 import Variedades from "./routes/Variadas/Variadas";
 import Lgbt from "./routes/Lgbt/Lgbt";
-import DataEspeciais from "./routes/DatasEspeciais/DatasEspeciais";
+import DataEspeciaisRoutes from "./routes/DatasEspeciais/DataEspeciaisRoutes";
 
 import Banner from "./layout/Banner/Banner";
 import Header from "./layout/Header/Header";
@@ -26,7 +26,7 @@ const App: React.FC = () => {
         <Route path="/evangelicas" element={<Evangelico />} />
         <Route path="/variadas" element={<Variedades />} />
         <Route path="/lgbt" element={<Lgbt />} />
-        <Route path="/datasespeciais" element={<DataEspeciais />} />
+        <Route path="/datasespeciais/*" element={<DataEspeciaisRoutes />} />
        
 
       </Routes>
