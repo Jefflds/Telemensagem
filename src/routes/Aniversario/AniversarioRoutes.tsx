@@ -21,7 +21,7 @@ const layoutsItems = [
       "Antecipado",
       "Atrasado",
       "Cliente",
-      "Com Gozação",
+      "Com Gozacao",
       "Com Otimismo",
       "Criança",
       "Neutro",
