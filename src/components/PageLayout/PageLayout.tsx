@@ -20,7 +20,12 @@ export interface PageLayoutProps {
 
 const PageLayout: React.FC<PageLayoutProps> = ({ layoutsItems }) => {
   const LinkToRoute = (item: string) => {
-    const normalizedStr = item.replace(/[^a-zA-Z0-9]/g, "").toLowerCase();
+    const normalizedStr = item
+      .replace(/ç/g, "c")
+      .replace(/ã/g, "a")
+      .replace(/[^a-zA-Z0-9]/g, "")
+      .toLowerCase();
+  
     return normalizedStr;
   };
 
