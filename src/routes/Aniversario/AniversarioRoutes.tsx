@@ -11,6 +11,7 @@ import PessoaDistante from "./PessoaDistante/PessoaDistante";
 import Cliente from "./Cliente/Cliente";
 import Crianca from "./Crianca/Crianca";
 import Terceiros from "./Terceiros/Terceiros";
+import Atrasado from "./Atrasado/Atrasado";
 
 const layoutsItems = [
   {
@@ -18,6 +19,7 @@ const layoutsItems = [
     buttonValues: [
       "Amiga/Amigo",
       "Antecipado",
+      "Atrasado",
       "Cliente",
       "Com Gozação",
       "Com Otimismo",
@@ -52,6 +54,7 @@ const AniversarioRoutes: React.FC = () => {
       <Route path="/cliente" element={<Cliente />} />
       <Route path="/crianca" element={<Crianca />} />
       <Route path="/terceiros" element={<Terceiros />} />
+      <Route path="/atrasado" element={<Atrasado />} />
     </Routes>
   );
 };
