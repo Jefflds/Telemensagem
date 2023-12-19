@@ -33,7 +33,7 @@ export const HeaderNav = styled.nav`
       color: #000; 
       background:  #F3A8C2;
       border-radius: 10px;
-      border-bottom: 5px solid #F4E7F5;
+      border-bottom: 5px solid #F3A8C2;
       
     }
   }
