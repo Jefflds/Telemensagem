@@ -9,9 +9,9 @@ export const TitleWithLine: React.FC<TitleWithLineProps> = ({title}) => {
   return (
     <TitleWithLineContainer>
       <h3>
-        <div className="title">{title}</div>
-        <span className="sep-container">
-          <span className="line">
+        <div className="title   text-wrap">{title}</div>
+        <span className=" ">
+          <span className="line ">
             <span></span>
           </span>
         </span>
