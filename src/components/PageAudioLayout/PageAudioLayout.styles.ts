@@ -25,4 +25,5 @@ export const PageAudioLayoutContainer = styled.div`
   button {
     margin: 0; /* Remova a margem para evitar espaçamento entre o botão e outros elementos */
   }
+
 `;

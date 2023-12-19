@@ -1,7 +1,11 @@
-
 import { Container } from "react-bootstrap";
 import { PageAudioLayoutContainer } from "./PageAudioLayout.styles";
 import React from "react";
+import Checkbox from "@mui/material/Checkbox";
+
+import Favorite from "@mui/icons-material/Favorite";
+import FavoriteBorder from "@mui/icons-material/FavoriteBorder";
+
 
 interface SubItem {
   id: string;
@@ -24,6 +28,8 @@ const PageAudioLayout: React.FC<PageAudioLayoutProps> = ({ audioData }) => {
   return (
     <PageAudioLayoutContainer>
       <Container>
+
+
         {audioData.map((audio: AudioItem) => (
           <div
             key={audio.id}
@@ -32,13 +38,20 @@ const PageAudioLayout: React.FC<PageAudioLayoutProps> = ({ audioData }) => {
             <h2>{audio.title}</h2>
             <h3 className="mt-2 mb-2">{audio.subTitle}</h3>
             {audio.subItems.map((subItem: SubItem) => (
-              <div key={subItem.id} className="mb-3 d-flex flex-column">
+              <><div key={subItem.id} className="mb-3 d-flex flex-column">
                 <span className="mt-2 mb-2">{`${subItem.id}-${subItem.subTitle}`}</span>
                 <audio controlsList="nodownload" className="mt-2 mb-2" controls src={subItem.src}></audio>
-              </div>
+
+              </div><div>
+                  <Checkbox icon={<FavoriteBorder />} checkedIcon={<Favorite />} />
+                </div></>
             ))}
           </div>
+
+                      
         ))}
+
+
       </Container>
     </PageAudioLayoutContainer>
   );
