@@ -23,7 +23,6 @@ export const PageAudioLayoutContainer = styled.div`
     font-size: 12pt;
   }
   button {
-    margin: 0; /* Remova a margem para evitar espaçamento entre o botão e outros elementos */
-  }
+    margin: 0;
 
 `;

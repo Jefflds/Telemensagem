@@ -27,10 +27,8 @@ const App: React.FC = () => {
         <Route path="/variadas" element={<Variedades />} />
         <Route path="/lgbt" element={<Lgbt />} />
         <Route path="/datasespeciais/*" element={<DataEspeciaisRoutes />} />
-       
-
       </Routes>
-      <ButtonWhats/>
+      <ButtonWhats />
       <Footer />
     </Router>
   );
