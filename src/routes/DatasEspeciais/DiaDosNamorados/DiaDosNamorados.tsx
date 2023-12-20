@@ -1,9 +1,10 @@
-import React from 'react'
+import React from "react";
+import PageAudioLayout from "../../../components/PageAudioLayout/PageAudioLayout";
+import { audioData } from "./DiaDosNamorados.data";
 
-const DiaDosNamorados = () => {
-  return (
-    <div>DiaDosNamorados</div>
-  )
+const DiaDosNamorados: React.FC = () => {
+    return <PageAudioLayout audioData={audioData}/>
 }
 
-export default DiaDosNamorados
+export default DiaDosNamorados;
+
