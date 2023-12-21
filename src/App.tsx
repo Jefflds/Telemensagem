@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./routes/Home/Home";
 
-import Evangelico from "./routes/Evagelicas/Evangelicas";
+import Evangelico from "./routes/Evagelicas/EvangelicasRoutes";
 import Variedades from "./routes/Variadas/Variadas";
 import Lgbt from "./routes/Lgbt/Lgbt";
 import DataEspeciaisRoutes from "./routes/DatasEspeciais/DataEspeciaisRoutes";
