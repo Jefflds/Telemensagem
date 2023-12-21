@@ -39,8 +39,8 @@ const Evangelico: React.FC = () => {
   return (
   <Routes>
   <Route path="/" element={<Evangelicas layoutsItems={layoutsItems} />} />
-  <Route path="/aniversarioamigo" element={<AniversarioAmigo />} />
-  <Route path="/aniversaiosposa" element={<AniversaioEsposa />} />
+  <Route path="/aniversrioamigoa" element={<AniversarioAmigo />} />
+  <Route path="/aniversrioesposa" element={<AniversaioEsposa />} />
   <Route path="/aniversariofilho" element={<AniversarioFilho />} />
   <Route path="/aniversarioirmaoirma" element={<AniversarioIrmaoIrma />} />
   <Route path="/aniversariomae" element={<AniversarioMae />} />
