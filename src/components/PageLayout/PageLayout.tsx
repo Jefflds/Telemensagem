@@ -23,6 +23,7 @@ const PageLayout: React.FC<PageLayoutProps> = ({ layoutsItems }) => {
     const normalizedStr = item
       .replace(/ç/g, "c")
       .replace(/ã/g, "a")
+      .replace(/á/g, "a")
       .replace(/[^a-zA-Z0-9]/g, "")
       .toLowerCase();
   

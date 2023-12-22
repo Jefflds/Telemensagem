@@ -37,7 +37,6 @@ const Header: React.FC = () => {
               aria-controls="navbarSupportedContent"
               className="custom-navbar-toggler"
             />
-
             <Navbar.Collapse
               id="navbarSupportedContent"
               role="navigation"
