@@ -1,4 +1,4 @@
-import  { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Navbar, Container, Nav } from "react-bootstrap";
 import { HeaderNav } from "./Header.style";
@@ -13,12 +13,11 @@ const Header: React.FC = () => {
     setActiveLink(link);
   };
 
-  
   const [isFixed, setIsFixed] = useState(false);
 
   const handleScroll = () => {
     const scrollPosition = window.scrollY;
-    const shouldFix = scrollPosition > 0; // ou qualquer outra condição que você deseje
+    const shouldFix = scrollPosition > 0;
     setIsFixed(shouldFix);
   };
 
@@ -31,7 +30,7 @@ const Header: React.FC = () => {
 
   return (
     <HeaderNav className={isFixed ? "fixed" : ""}>
-      <Container  fluid id="container1 row" className="mx-auto">
+      <Container fluid id="container1 row" className="mx-auto">
         <Navbar expand="lg">
           <Container fluid>
             <Navbar.Toggle
@@ -73,7 +72,7 @@ const Header: React.FC = () => {
                 >
                   Datas Especiais
                 </Nav.Link>
-              
+
                 <Nav.Link
                   as={Link}
                   to="/evangelicas"
@@ -110,11 +109,6 @@ const Header: React.FC = () => {
                 >
                   Variadas
                 </Nav.Link>
-              
-
-                
-
-                
               </Nav>
             </Navbar.Collapse>
           </Container>
