@@ -9,7 +9,7 @@ import { FaWhatsapp } from "react-icons/fa";
 import { StyledButtonWhatsapp } from "../../components/buttonWhats/buttonWhats2.styled";
 
 const ListenItems = [
-  "Aniversários",
+  "Aniversário",
   "Românticas",
   "Evangélicas",
   "Variadas",
@@ -34,16 +34,8 @@ const Home: React.FC = () => {
                 aqueles que você ama, trazendo o amor das palavras à vida.
               </p>
             </Col>
-
-            <Col sm={12} className="text-center">
-              {/* <h4>
-                <strong>NOVIDADE!</strong>
-              </h4> */}
-            </Col>
           </section>
-
           <section className="mt-4 mb-4">
-           
             <Col
               sm={12}
               className="text-center DuvidasEpedidos d-flex flex-column"
@@ -51,15 +43,16 @@ const Home: React.FC = () => {
               <p>Whatsapp:</p>
 
               <div className="d-flex justify-content-center align-items-center">
-      <a
-        href="https://api.whatsapp.com/send?1=pt_BR&phone=5511963665212"
-        target="_blank"
-      >
-        <StyledButtonWhatsapp>
-          <FaWhatsapp /> WhastApp
-        </StyledButtonWhatsapp>
-      </a>
-    </div>
+                <a
+                  href="https://api.whatsapp.com/send?1=pt_BR&phone=5511963665212"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <StyledButtonWhatsapp>
+                    <FaWhatsapp /> WhastApp
+                  </StyledButtonWhatsapp>
+                </a>
+              </div>
             </Col>
           </section>
           <section className="mt-4 mb-4 text-center">
