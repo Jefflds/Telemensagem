@@ -30,14 +30,6 @@ const layoutsItems = [
       "Terceiros",
     ],
   },
-  //{
-  //   title: "Aniversário Familiar",
-  //    buttonValues: ["Mãe/Pai", "Filho/Filha", "Irmão/Irmã"],
-  //},
-  //{
-  //   title: "Aniversário Romântico",
-  //   buttonValues: ["Namorada/Namorado", "Ficantes", "Esposa/Esposo"],
-  //},
 ];
 
 const AniversarioRoutes: React.FC = () => {

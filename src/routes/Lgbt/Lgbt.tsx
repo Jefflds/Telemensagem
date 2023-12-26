@@ -1,15 +1,12 @@
 import React from "react";
-import PageLayout from "../../components/PageLayout/PageLayout";
+import PageLayout, {
+  PageLayoutProps,
+} from "../../components/PageLayout/PageLayout";
 
-const layoutsItems = [
-  {
-    title: "LGBT",
-    buttonValues: ["Aniversário", "Romântica"],
-  },
-];
+interface LgbtProps extends PageLayoutProps {}
 
-const lgbt: React.FC = () => {
+const Lgbt: React.FC<LgbtProps> = ({ layoutsItems }) => {
   return <PageLayout layoutsItems={layoutsItems} />;
 };
 
-export default lgbt;
+export default Lgbt;
