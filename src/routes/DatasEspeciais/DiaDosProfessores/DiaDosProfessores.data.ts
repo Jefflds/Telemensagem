@@ -1,25 +1,13 @@
-/* eslint-disable @typescript-eslint/ban-ts-comment */
-// @ts-expect-error
 import AudioFile1 from "../../../assets/Msgaudios/DataEspecial/Data-especial-dia-dos-professores/Telemensagem(1).mp3";
-// @ts-expect-error
 import AudioFile2 from "../../../assets/Msgaudios/DataEspecial/Data-especial-dia-dos-professores/Telemensagem(2).mp3";
-// @ts-expect-error
 import AudioFile3 from "../../../assets/Msgaudios/DataEspecial/Data-especial-dia-dos-professores/Telemensagem(3).mp3";
-// @ts-expect-error
 import AudioFile4 from "../../../assets/Msgaudios/DataEspecial/Data-especial-dia-dos-professores/Telemensagem(4).mp3";
-// @ts-expect-error
 import AudioFile5 from "../../../assets/Msgaudios/DataEspecial/Data-especial-dia-dos-professores/Telemensagem(5).mp3";
-// @ts-expect-error
 import AudioFile6 from "../../../assets/Msgaudios/DataEspecial/Data-especial-dia-dos-professores/Telemensagem(6).mp3";
-// @ts-expect-error
 import AudioFile7 from "../../../assets/Msgaudios/DataEspecial/Data-especial-dia-dos-professores/Telemensagem(7).mp3";
-// @ts-expect-error
 import AudioFile8 from "../../../assets/Msgaudios/DataEspecial/Data-especial-dia-dos-professores/Telemensagem(8).mp3";
-// @ts-expect-error
 import AudioFile9 from "../../../assets/Msgaudios/DataEspecial/Data-especial-dia-dos-professores/Telemensagem(9).mp3";
-// @ts-expect-error
 import AudioFile10 from "../../../assets/Msgaudios/DataEspecial/Data-especial-dia-dos-professores/Telemensagem(10).mp3";
-// @ts-expect-error
 import AudioFile11 from "../../../assets/Msgaudios/DataEspecial/Data-especial-dia-dos-professores/Telemensagem(11).mp3";
 
 export const audioData = [

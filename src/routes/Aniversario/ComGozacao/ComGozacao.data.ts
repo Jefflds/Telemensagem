@@ -1,14 +1,7 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
-/* eslint-disable @typescript-eslint/ban-ts-comment */
-// @ts-ignore
 import AudioFile1 from "../../../assets/Msgaudios/Aniversario/Aniversario-com-gozacao/Telemensagem-SPP.mp3";
-// @ts-ignore
 import AudioFile2 from "../../../assets/Msgaudios/Aniversario/Aniversario-com-gozacao/Telemensagem-SPP(1).mp3";
-// @ts-ignore
 import AudioFile3 from "../../../assets/Msgaudios/Aniversario/Aniversario-com-gozacao/Telemensagem-SPP(2).mp3";
-// @ts-ignore
 import AudioFile4 from "../../../assets/Msgaudios/Aniversario/Aniversario-com-gozacao/Telemensagem-SPP(3).mp3";
-// @ts-ignore
 import AudioFile5 from "../../../assets/Msgaudios/Aniversario/Aniversario-com-gozacao/Telemensagem-SPP(4).mp3";
 
 export const audioData = [

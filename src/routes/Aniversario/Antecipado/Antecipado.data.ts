@@ -1,10 +1,5 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
-/* eslint-disable @typescript-eslint/ban-ts-comment */
-// @ts-ignore
 import AudioFile1 from "../../../assets/Msgaudios/Aniversario/Aniversario-antecipado/Telemensagem-1.mp3";
-// @ts-ignore
 import AudioFile2 from "../../../assets/Msgaudios/Aniversario/Aniversario-antecipado/Telemensagem-2.mp3";
-// @ts-ignore
 import AudioFile3 from "../../../assets/Msgaudios/Aniversario/Aniversario-antecipado/Telemensagem-3.mp3";
 
 export const audioData = [

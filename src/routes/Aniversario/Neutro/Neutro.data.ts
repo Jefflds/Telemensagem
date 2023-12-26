@@ -1,26 +1,13 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
-/* eslint-disable @typescript-eslint/ban-ts-comment */
-// @ts-ignore
 import AudioFile1 from "../../../assets/Msgaudios/Aniversario/Aniversario-neutro/Telemensagem-(4).mp3";
-// @ts-ignore
 import AudioFile2 from "../../../assets/Msgaudios/Aniversario/Aniversario-neutro/Telemensagem-(5).mp3";
-// @ts-ignore
 import AudioFile3 from "../../../assets/Msgaudios/Aniversario/Aniversario-neutro/Telemensagem-(6).mp3";
-// @ts-ignore
 import AudioFile4 from "../../../assets/Msgaudios/Aniversario/Aniversario-neutro/Telemensagem-(7).mp3";
-// @ts-ignore
 import AudioFile5 from "../../../assets/Msgaudios/Aniversario/Aniversario-neutro/Telemensagem-(8).mp3";
-// @ts-ignore
 import AudioFile6 from "../../../assets/Msgaudios/Aniversario/Aniversario-neutro/Telemensagem-(9).mp3";
-// @ts-ignore
 import AudioFile7 from "../../../assets/Msgaudios/Aniversario/Aniversario-neutro/Telemensagem-(10).mp3";
-// @ts-ignore
 import AudioFile8 from "../../../assets/Msgaudios/Aniversario/Aniversario-neutro/Telemensagem-(11).mp3";
-// @ts-ignore
 import AudioFile9 from "../../../assets/Msgaudios/Aniversario/Aniversario-neutro/Telemensagem-(12).mp3";
-// @ts-ignore
 import AudioFile10 from "../../../assets/Msgaudios/Aniversario/Aniversario-neutro/Telemensagem-(13).mp3";
-// @ts-ignore
 import AudioFile11 from "../../../assets/Msgaudios/Aniversario/Aniversario-neutro/Telemensagem-(14).mp3";
 
 export const audioData = [

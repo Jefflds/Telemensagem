@@ -1,81 +1,41 @@
-/* eslint-disable @typescript-eslint/ban-ts-comment */
-// @ts-expect-error
 import AudioFile1 from "../../../assets/Msgaudios/DataEspecial/Data-especial-dia-das-maes/Telemensagem(1).mp3";
-// @ts-expect-error
 import AudioFile2 from "../../../assets/Msgaudios/DataEspecial/Data-especial-dia-das-maes/Telemensagem(2).mp3";
-// @ts-expect-error
 import AudioFile3 from "../../../assets/Msgaudios/DataEspecial/Data-especial-dia-das-maes/Telemensagem(3).mp3";
-// @ts-expect-error
 import AudioFile4 from "../../../assets/Msgaudios/DataEspecial/Data-especial-dia-das-maes/Telemensagem(4).mp3";
-// @ts-expect-error
 import AudioFile5 from "../../../assets/Msgaudios/DataEspecial/Data-especial-dia-das-maes/Telemensagem(5).mp3";
-// @ts-expect-error
 import AudioFile6 from "../../../assets/Msgaudios/DataEspecial/Data-especial-dia-das-maes/Telemensagem(6).mp3";
-// @ts-expect-error
 import AudioFile7 from "../../../assets/Msgaudios/DataEspecial/Data-especial-dia-das-maes/Telemensagem(7).mp3";
-// @ts-expect-error
 import AudioFile8 from "../../../assets/Msgaudios/DataEspecial/Data-especial-dia-das-maes/Telemensagem(8).mp3";
-// @ts-expect-error
 import AudioFile9 from "../../../assets/Msgaudios/DataEspecial/Data-especial-dia-das-maes/Telemensagem(9).mp3";
-// @ts-expect-error
 import AudioFile10 from "../../../assets/Msgaudios/DataEspecial/Data-especial-dia-das-maes/Telemensagem(10).mp3";
-// @ts-expect-error
 import AudioFile11 from "../../../assets/Msgaudios/DataEspecial/Data-especial-dia-das-maes/Telemensagem(11).mp3";
-// @ts-expect-error
 import AudioFile12 from "../../../assets/Msgaudios/DataEspecial/Data-especial-dia-das-maes/Telemensagem(12).mp3";
-// @ts-expect-error
 import AudioFile13 from "../../../assets/Msgaudios/DataEspecial/Data-especial-dia-das-maes/Telemensagem(13).mp3";
-// @ts-expect-error
 import AudioFile14 from "../../../assets/Msgaudios/DataEspecial/Data-especial-dia-das-maes/Telemensagem(14).mp3";
-// @ts-expect-error
 import AudioFile15 from "../../../assets/Msgaudios/DataEspecial/Data-especial-dia-das-maes/Telemensagem(15).mp3";
-// @ts-expect-error
 import AudioFile16 from "../../../assets/Msgaudios/DataEspecial/Data-especial-dia-das-maes/Telemensagem(16).mp3";
-// @ts-expect-error
 import AudioFile17 from "../../../assets/Msgaudios/DataEspecial/Data-especial-dia-das-maes/Telemensagem(17).mp3";
-// @ts-expect-error
 import AudioFile18 from "../../../assets/Msgaudios/DataEspecial/Data-especial-dia-das-maes/Telemensagem(18).mp3";
-// @ts-expect-error
 import AudioFile19 from "../../../assets/Msgaudios/DataEspecial/Data-especial-dia-das-maes/Telemensagem(19).mp3";
-// @ts-expect-error
 import AudioFile20 from "../../../assets/Msgaudios/DataEspecial/Data-especial-dia-das-maes/Telemensagem(20).mp3";
-// @ts-expect-error
 import AudioFile21 from "../../../assets/Msgaudios/DataEspecial/Data-especial-dia-das-maes/Telemensagem(21).mp3";
-// @ts-expect-error
 import AudioFile22 from "../../../assets/Msgaudios/DataEspecial/Data-especial-dia-das-maes/Telemensagem(22).mp3";
-// @ts-expect-error
 import AudioFile23 from "../../../assets/Msgaudios/DataEspecial/Data-especial-dia-das-maes/Telemensagem(23).mp3";
-// @ts-expect-error
 import AudioFile24 from "../../../assets/Msgaudios/DataEspecial/Data-especial-dia-das-maes/Telemensagem(24).mp3";
-// @ts-expect-error
 import AudioFile25 from "../../../assets/Msgaudios/DataEspecial/Data-especial-dia-das-maes/Telemensagem(25).mp3";
-// @ts-expect-error
 import AudioFile26 from "../../../assets/Msgaudios/DataEspecial/Data-especial-dia-das-maes/Telemensagem(26).mp3";
-// @ts-expect-error
 import AudioFile27 from "../../../assets/Msgaudios/DataEspecial/Data-especial-dia-das-maes/Telemensagem(27).mp3";
-// @ts-expect-error
 import AudioFile28 from "../../../assets/Msgaudios/DataEspecial/Data-especial-dia-das-maes/Telemensagem(28).mp3";
-// @ts-expect-error
 import AudioFile29 from "../../../assets/Msgaudios/DataEspecial/Data-especial-dia-das-maes/Telemensagem(29).mp3";
-// @ts-expect-error
 import AudioFile30 from "../../../assets/Msgaudios/DataEspecial/Data-especial-dia-das-maes/Telemensagem(30).mp3";
-// @ts-expect-error
 import AudioFile31 from "../../../assets/Msgaudios/DataEspecial/Data-especial-dia-das-maes/Telemensagem(31).mp3";
-// @ts-expect-error
 import AudioFile32 from "../../../assets/Msgaudios/DataEspecial/Data-especial-dia-das-maes/Telemensagem(32).mp3";
-// @ts-expect-error
 import AudioFile33 from "../../../assets/Msgaudios/DataEspecial/Data-especial-dia-das-maes/Telemensagem(33).mp3";
-// @ts-expect-error
 import AudioFile34 from "../../../assets/Msgaudios/DataEspecial/Data-especial-dia-das-maes/Telemensagem(34).mp3";
-// @ts-expect-error
 import AudioFile35 from "../../../assets/Msgaudios/DataEspecial/Data-especial-dia-das-maes/Telemensagem(35).mp3";
-// @ts-expect-error
 import AudioFile36 from "../../../assets/Msgaudios/DataEspecial/Data-especial-dia-das-maes/Telemensagem(36).mp3";
-// @ts-expect-error
 import AudioFile37 from "../../../assets/Msgaudios/DataEspecial/Data-especial-dia-das-maes/Telemensagem(37).mp3";
-// @ts-expect-error
 import AudioFile38 from "../../../assets/Msgaudios/DataEspecial/Data-especial-dia-das-maes/Telemensagem(38).mp3";
-// @ts-expect-error
 import AudioFile39 from "../../../assets/Msgaudios/DataEspecial/Data-especial-dia-das-maes/Telemensagem(39).mp3";
 
 export const audioData = [

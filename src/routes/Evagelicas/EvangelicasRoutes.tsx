@@ -3,7 +3,7 @@ import React from "react";
 import { Route, Routes } from "react-router-dom";
 import Evangelicas from "./Evangelicas";
 import AniversarioAmigo from "./AniversarioAmigo/AniversarioAmigo";
-import AniversaioEsposa from "./AniversrioEsposa/AniversrioEsposa";
+import AniversaioEsposa from "./AniversarioEsposa/AniversrioEsposa";
 import AniversarioFilho from "./AniversarioFilho/AniversarioFilho";
 import AniversarioIrmaoIrma from "./AniversarioIrmaoIrma/AniversarioIrmaoIrma";
 import AniversarioMae from "./AniversarioMae/AniversarioMae";

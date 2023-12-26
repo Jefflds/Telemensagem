@@ -1,12 +1,6 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
-/* eslint-disable @typescript-eslint/ban-ts-comment */
-// @ts-ignore
 import AudioFile1 from "../../../assets/Msgaudios/Aniversario/Aniversario-para-terceiros/Telemensagem(1).mp3";
-// @ts-ignore
 import AudioFile2 from "../../../assets/Msgaudios/Aniversario/Aniversario-para-terceiros/Telemensagem(2).mp3";
-// @ts-ignore
 import AudioFile3 from "../../../assets/Msgaudios/Aniversario/Aniversario-para-terceiros/Telemensagem(3).mp3";
-// @ts-ignore
 import AudioFile4 from "../../../assets/Msgaudios/Aniversario/Aniversario-para-terceiros/Telemensagem(4).mp3";
 
 
