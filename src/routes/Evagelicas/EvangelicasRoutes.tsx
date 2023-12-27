@@ -3,8 +3,7 @@ import React from "react";
 import { Route, Routes } from "react-router-dom";
 import Evangelicas from "./Evangelicas";
 import AniversarioAmigo from "./AniversarioAmigo/AniversarioAmigo";
-import AniversaioEsposa from "./AniversarioEsposa/AniversrioEsposa";
-import AniversarioFilho from "./AniversarioFilho/AniversarioFilho";
+import AniversarioFilho from "./AniversarioFilhoFilha/AniversarioFilhoFilha";
 import AniversarioIrmaoIrma from "./AniversarioIrmaoIrma/AniversarioIrmaoIrma";
 import AniversarioMae from "./AniversarioMae/AniversarioMae";
 import AniversarioNamorado from "./AniversarioNamorado/AniversarioNamorado";
@@ -19,8 +18,6 @@ const layoutsItems = [
     title: "Evangélicas",
     buttonValues: [
       "Aniversário Amigo(a)",
-      "Aniversário Esposa",
-      "Aniversário Esposo",
       "Aniversário Filho(a)",
       "Aniversário Irmão/Irmã",
       "Aniversário Mãe",
@@ -40,7 +37,6 @@ const Evangelico: React.FC = () => {
     <Routes>
       <Route path="/" element={<Evangelicas layoutsItems={layoutsItems} />} />
       <Route path="/aniversarioamigoa" element={<AniversarioAmigo />} />
-      <Route path="/aniversarioesposa" element={<AniversaioEsposa />} />
       <Route path="/aniversariofilho" element={<AniversarioFilho />} />
       <Route path="/aniversarioirmaoirma" element={<AniversarioIrmaoIrma />} />
       <Route path="/aniversariomae" element={<AniversarioMae />} />
