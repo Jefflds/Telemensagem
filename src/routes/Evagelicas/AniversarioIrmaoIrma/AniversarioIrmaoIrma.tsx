@@ -1,7 +1,8 @@
-const AniversarioIrmaoIrma = () => {
-  return (
-    <div>AniversarioIrmaoIrma</div>
-  )
-}
+import PageAudioLayout from "../../../components/PageAudioLayout/PageAudioLayout";
+import { audioData } from "./AniversarioIrmaoIrma.data";
 
-export default AniversarioIrmaoIrma
+const AniversarioIrmaoIrma: React.FC = () => {
+  return <PageAudioLayout audioData={audioData} />;
+};
+
+export default AniversarioIrmaoIrma;
