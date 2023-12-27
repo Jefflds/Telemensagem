@@ -2,7 +2,8 @@ import AudioFile1 from "../../../assets/Msgaudios/Evangelica/Evangelica-Aniversa
 import AudioFile2 from "../../../assets/Msgaudios/Evangelica/Evangelica-Aniversario-de-Pai/Telemensagem(2).mp3";
 import AudioFile3 from "../../../assets/Msgaudios/Evangelica/Evangelica-Aniversario-de-Pai/Telemensagem(3).mp3";
 import AudioFile4 from "../../../assets/Msgaudios/Evangelica/Evangelica-Aniversario-de-Pai/Telemensagem(4).mp3";
-import AudioFile5 from "../../../assets/Msgaudios/Evangelica/Evangelica-Aniversario-de-Pai/Telemensagem(5).mp3";
+
+
 
 export const audioData = [
   {
@@ -29,11 +30,6 @@ export const audioData = [
         id: "004",
         subTitle: "Aniversário de Pai Evangélico",
         src: AudioFile4,
-      },
-      {
-        id: "005",
-        subTitle: "Aniversário de Pai Evangélico",
-        src: AudioFile5,
       },
     ],
   },
