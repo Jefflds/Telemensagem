@@ -6,7 +6,7 @@ import AniversarioAmigo from "./AniversarioAmigo/AniversarioAmigo";
 import AniversarioFilho from "./AniversarioFilhoFilha/AniversarioFilhoFilha";
 import AniversarioIrmaoIrma from "./AniversarioIrmaoIrma/AniversarioIrmaoIrma";
 import AniversarioMae from "./AniversarioMae/AniversarioMae";
-import AniversarioNamorado from "./AniversarioNamorado/AniversarioNamorado";
+import AniversarioNamorado from "./AniversarioNamoradoNamorada/AniversarioNamoradoNamorada";
 import AniversarioNeutro from "./AniversarioNeutro/AniversarioNeutro";
 import AniversarioPai from "./AniversarioPai/AniversarioPai";
 import AniversarioPastor from "./AniversarioPastor/AniversarioPastor";
