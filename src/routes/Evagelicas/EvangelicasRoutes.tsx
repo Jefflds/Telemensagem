@@ -10,8 +10,6 @@ import AniversarioNamorado from "./AniversarioNamoradoNamorada/AniversarioNamora
 import AniversarioNeutro from "./AniversarioNeutro/AniversarioNeutro";
 import AniversarioPai from "./AniversarioPai/AniversarioPai";
 import AniversarioPastor from "./AniversarioPastor/AniversarioPastor";
-import AniversarioSogro from "./AniversarioSogro/AniversarioSogro";
-import AniversarioTio from "./AniversarioTio/AniversarioTio";
 
 const layoutsItems = [
   {
@@ -25,9 +23,6 @@ const layoutsItems = [
       "Aniversário Neutro",
       "Aniversário Pai",
       "Aniversário Pastor",
-      "Aniversário Sogro(a)",
-      "Aniversário Tio(a)",
-      "Romântica",
     ],
   },
 ];
@@ -44,8 +39,6 @@ const Evangelico: React.FC = () => {
       <Route path="/aniversarioneutro" element={<AniversarioNeutro />} />
       <Route path="/aniversariopai" element={<AniversarioPai />} />
       <Route path="/aniversariopastor" element={<AniversarioPastor />} />
-      <Route path="/aniversariosogro" element={<AniversarioSogro />} />
-      <Route path="/aniversariotio" element={<AniversarioTio />} />
     </Routes>
   );
 };
