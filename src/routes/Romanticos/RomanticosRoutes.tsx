@@ -91,25 +91,25 @@ const RomanticosRoutes: React.FC = () => {
       <Route path="distantes" element={<Distantes />} />
       <Route path="desculpa-romantica" element={<DesculpaRomantica />} />
       <Route path="erotica" element={<Erotica />} />
-      <Route path="esposo-esposa" element={<EsposoEsposa />} />
-      <Route path="estou-magoadocom-voce" element={<EstouMagoadocomVoce />} />
-      <Route path="ex-namorado-ex-esposa" element={<ExNamoradoExEsposa />} />
+      <Route path="esposoesposa" element={<EsposoEsposa />} />
+      <Route path="estou-magoadoa-com-voce" element={<EstouMagoadocomVoce />} />
+      <Route path="ex-namoradoaex-esposoa" element={<ExNamoradoExEsposa />} />
       <Route path="ficantes" element={<Ficantes />} />
       <Route path="fim-de-relacionamento" element={<FimdeRelacionamento />} />
       <Route path="inicio-de-namoro" element={<IniciodeNamoro />} />
-      <Route path="namorado-namorada" element={<NamoradoNamorada />} />
+      <Route path="namoradonamorada" element={<NamoradoNamorada />} />
       <Route path="nao-correspondido" element={<NaoCorrespondido />} />
-      <Route path="obrigado-pelos-momentos" element={<ObrigadoPelosMomentos />} />
+      <Route path="obrigadoa-pelos-momentos" element={<ObrigadoPelosMomentos />} />
       <Route path="otimismo" element={<Otimismo />} />
       <Route path="paquera" element={<Paquera />} />
-      <Route path="pedido-casamento" element={<PedidoCasamento />} />
-      <Route path="pedido-namoro" element={<PedidoNamoro />} />
+      <Route path="pedido-de-casamento" element={<PedidoCasamento />} />
+      <Route path="pedido-de-namoro" element={<PedidoNamoro />} />
       <Route path="picante" element={<Picante />} />
       <Route path="reconciliacao" element={<Reconciliacao />} />
       <Route path="reencontro" element={<Reencontro />} />
       <Route path="tumultuado" element={<Tumultuado />} />
       <Route path="saudade" element={<Saudade />} />
-      <Route path="voce-especial" element={<VoceEspecial />} />
+      <Route path="voce-e-especial" element={<VoceEspecial />} />
       <Route path="para-noivoa" element={<ParaNoivoa />} />
     </Routes>
   );
