@@ -38,11 +38,11 @@ const AniversarioRoutes: React.FC = () => {
       <Route path="/" element={<Aniversario layoutsItems={layoutsItems} />} />
       <Route path="/amigaamigo" element={<AmigaAmigo />} />
       <Route path="/neutro" element={<Neutro />} />
-      <Route path="/pessoaespecial" element={<PessoaEspecial />} />
+      <Route path="/pessoa-especial" element={<PessoaEspecial />} />
       <Route path="/antecipado" element={<Antecipado />} />
-      <Route path="/comgozacao" element={<ComGozacao />} />
-      <Route path="/comotimismo" element={<ComOtimismo />} />
-      <Route path="/pessoadistante" element={<PessoaDistante />} />
+      <Route path="/com-gozacao" element={<ComGozacao />} />
+      <Route path="/com-otimismo" element={<ComOtimismo />} />
+      <Route path="/pessoa-distante" element={<PessoaDistante />} />
       <Route path="/cliente" element={<Cliente />} />
       <Route path="/crianca" element={<Crianca />} />
       <Route path="/terceiros" element={<Terceiros />} />

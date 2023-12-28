@@ -31,14 +31,14 @@ const Evangelico: React.FC = () => {
   return (
     <Routes>
       <Route path="/" element={<Evangelicas layoutsItems={layoutsItems} />} />
-      <Route path="/aniversarioamigoa" element={<AniversarioAmigo />} />
-      <Route path="/aniversariofilho" element={<AniversarioFilho />} />
-      <Route path="/aniversarioirmaoirma" element={<AniversarioIrmaoIrma />} />
-      <Route path="/aniversariomae" element={<AniversarioMae />} />
-      <Route path="/aniversarionamorado" element={<AniversarioNamorado />} />
-      <Route path="/aniversarioneutro" element={<AniversarioNeutro />} />
-      <Route path="/aniversariopai" element={<AniversarioPai />} />
-      <Route path="/aniversariopastor" element={<AniversarioPastor />} />
+      <Route path="/aniversario-amigoa" element={<AniversarioAmigo />} />
+      <Route path="/aniversario-filhoa" element={<AniversarioFilho />} />
+      <Route path="/aniversario-irmaoirma" element={<AniversarioIrmaoIrma />} />
+      <Route path="/aniversario-mae" element={<AniversarioMae />} />
+      <Route path="/aniversario-namoradoa" element={<AniversarioNamorado />} />
+      <Route path="/aniversario-neutro" element={<AniversarioNeutro />} />
+      <Route path="/aniversario-pai" element={<AniversarioPai />} />
+      <Route path="/aniversario-pastor" element={<AniversarioPastor />} />
     </Routes>
   );
 };

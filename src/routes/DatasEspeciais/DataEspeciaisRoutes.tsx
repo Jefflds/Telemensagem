@@ -30,14 +30,14 @@ const DataEspeciaisRoutes: React.FC = () => {
   return (
     <Routes>
       <Route path="/" element={<DataEspeciais layoutsItems={layoutsItems} />} />
-      <Route path="/anonovo" element={<AnoNovo />} />
-      <Route path="/diadasmaes" element={<DiaDasMaes />} />
-      <Route path="/diadoamigo" element={<DiaDoAmigo />} />
-      <Route path="/diadoamigo" element={<DiaDoAmigo />} />
-      <Route path="/diadosnamorados" element={<DiaDosNamorados />} />
-      <Route path="/diadospais" element={<DiaDoPais />} />
-      <Route path="/diadosprofessores" element={<DiaDosProfessores/>} />
-      <Route path="/diainternacionaldamulher" element={<DiaInternacionalDaMulher/>} />
+      <Route path="/ano-novo" element={<AnoNovo />} />
+      <Route path="/dia-das-maes" element={<DiaDasMaes />} />
+      <Route path="/dia-do-amigo" element={<DiaDoAmigo />} />
+      <Route path="/dia-do-amigo" element={<DiaDoAmigo />} />
+      <Route path="/dia-dos-namorados" element={<DiaDosNamorados />} />
+      <Route path="/dia-dos-pais" element={<DiaDoPais />} />
+      <Route path="/dia-dos-professores" element={<DiaDosProfessores/>} />
+      <Route path="/dia-internacional-da-mulher" element={<DiaInternacionalDaMulher/>} />
       <Route path="/natal" element={<Natal/>} />
     </Routes>
   );

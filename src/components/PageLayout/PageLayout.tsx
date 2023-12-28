@@ -30,6 +30,11 @@ const PageLayout: React.FC<PageLayoutProps> = ({ layoutsItems }) => {
     .replace(/ç/g, 'c')
     .replace(/[^a-z0-9\s]/g, '')
     .replace(/\s+/g, '-');
+    
+   
+    
+  
+  
   
     return normalizedStr;
   };
