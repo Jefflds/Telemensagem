@@ -39,13 +39,13 @@ const layoutsItems = [
       "Despedida",
       "Formatura",
       // "Gestante",
-      "Gozação",
+      // "Gozação",
       "Homenagem",
       "Maternidade",
-      "Otimismo",
+      // "Otimismo",
       "Parabéns pelo Casamento",
       "Pêsames",
-      "Saudade Neutra",
+      // "Saudade Neutra",
       "Vitória",
     ],
   },
@@ -55,14 +55,14 @@ const VariadasRoutes: React.FC = () => {
   return (
     <Routes>
       <Route path="/" element={<Variadas layoutsItems={layoutsItems} />} />
-      <Route path="/bomdiatardenoite" element={<BomDia />} />
-      <Route path="/boasortesucesso" element={<BoaSorte />} />
-      <Route path="/boaviagem" element={<BoaViagem />} />
+      <Route path="/bom-diatardenoite" element={<BomDia />} />
+      <Route path="/boa-sortesucesso" element={<BoaSorte />} />
+      <Route path="/boa-viagem" element={<BoaViagem />} />
       <Route path="/boasvindas" element={<BoasVindas />} />
       <Route path="/amizade" element={<Amizade />} />
       <Route path="/agradecimento" element={<Agradecimento />} />
       <Route path="/desculpasfamiliares" element={<DesculpasFamiliares />} />
-      <Route path="/desculpaneutra" element={<DesculpaNeutra />} />
+      <Route path="/desculpa-neutra" element={<DesculpaNeutra />} />
       <Route path="/despedida" element={<Despedida />} />
       <Route path="/formatura" element={<Formatura />} />
       <Route path="/gestante" element={<Gestante />} />
@@ -70,7 +70,7 @@ const VariadasRoutes: React.FC = () => {
       <Route path="/homenagem" element={<Homenagem />} />
       <Route path="/maternidade" element={<Maternidade />} />
       <Route path="/otimismo" element={<Otimismo />} />
-      <Route path="/parabenspelocasamento"element={<ParabensPeloCasamento />} />
+      <Route path="/parabens-pelo-casamento"element={<ParabensPeloCasamento />} />
       <Route path="/pesames" element={<Pesames />} />
       <Route path="/saudadeneutra" element={<SaudadeNeutra />} />
       <Route path="/vitoria" element={<Vitória />} />
