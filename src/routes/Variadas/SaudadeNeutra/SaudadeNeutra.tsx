@@ -1,8 +1,8 @@
 import PageAudioLayout from "../../../components/PageAudioLayout/PageAudioLayout";
-import { audioData } from "./Amizade.data";
+import { audioData } from "./SaudadesNeutra.data";
 
-const Amizade: React.FC = () => {
+const SaudadesNeutra: React.FC = () => {
     return <PageAudioLayout audioData={audioData} />;
 };
 
-export default Amizade;
+export default SaudadesNeutra;
