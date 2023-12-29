@@ -10,7 +10,7 @@ import AudioFile7 from "../../../assets/Msgaudios/Evangelica/Evangelica-Aniversa
 export const audioData = [
   {
     id: "00",
-    title: "Aniversário de Irmã e Irmão (Evangélica)",
+    title: "Pedido de Namoro",
     subTitle: "",
     subItems: [
       {

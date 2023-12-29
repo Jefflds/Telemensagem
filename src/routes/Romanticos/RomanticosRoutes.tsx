@@ -8,7 +8,7 @@ import Carinho from "./Carinho/Carinho";
 import Conquista from "./Conquista/Conquista";
 import ConviteParaSair from "./ConviteParaSair/ConviteParaSair.tsx";
 import Declaracao from "./Declaracao/Declaracao";
-import Despedida from "./Despedida/Despedida";
+// import Despedida from "./Despedida/Despedida";
 import Distantes from "./Distantes/Distantes";
 import DesculpaRomantica from "./DesculpaRomantica/DesculpaRomantica";
 import Erotica from "./Erotica/Erotica";
@@ -19,12 +19,12 @@ import Ficantes from "./Ficantes/Ficantes";
 import FimdeRelacionamento from "./FimdeRelacionamento/FimdeRelacionamento";
 import IniciodeNamoro from "./IniciodeNamoro/IniciodeNamoro";
 import NamoradoNamorada from "./NamoradoNamoradas/NamoradoNamorada.tsx";
-import NaoCorrespondido from "./NaoCorrespondido/NaoCorrespondido";
+// import NaoCorrespondido from "./NaoCorrespondido/NaoCorrespondido";
 import ObrigadoPelosMomentos from "./ObrigadoPelosMomentos/ObrigadoPelosMomentos";
 import Otimismo from "./Otimismo/Otimismo";
 import Paquera from "./Paquera/Paquera";
 import PedidoCasamento from "./PedidoCasamento/PedidoCasamento";
-import PedidoNamoro from "./PedidoNamoro/PedidoNamoro";
+// import PedidoNamoro from "./PedidoNamoro/PedidoNamoro";
 import Picante from "./Picante/Picante";
 import Reconciliacao from "./Reconciliacao/Reconciliacao";
 import Reencontro from "./Reencontro/Reencontro";
@@ -44,7 +44,7 @@ const layoutsItems = [
       "Conquista",
       "Convite Para Sair",
       "Declaração",
-      "Despedida",
+      // "Despedida",
       "Distantes",
       "Desculpa Romântica",
       "Erótica",
@@ -55,12 +55,12 @@ const layoutsItems = [
       "Fim de Relacionamento",
       "Início de Namoro",
       "Namorado/Namorada",
-      "Não Correspondido",
+      // "Não Correspondido",
       "Obrigado(a) Pelos Momentos",
       "Otimismo",
       "Paquera",
       "Pedido de Casamento",
-      "Pedido de Namoro",
+      // "Pedido de Namoro",
       "Picante",
       "Reconciliação",
       "Reencontro",
@@ -87,7 +87,7 @@ const RomanticosRoutes: React.FC = () => {
       <Route path="conquista" element={<Conquista />} />
       <Route path="convite-para-sair" element={<ConviteParaSair />} />
       <Route path="declaracao" element={<Declaracao />} />
-      <Route path="despedida" element={<Despedida />} />
+      {/* <Route path="despedida" element={<Despedida />} /> */}
       <Route path="distantes" element={<Distantes />} />
       <Route path="desculpa-romantica" element={<DesculpaRomantica />} />
       <Route path="erotica" element={<Erotica />} />
@@ -98,12 +98,12 @@ const RomanticosRoutes: React.FC = () => {
       <Route path="fim-de-relacionamento" element={<FimdeRelacionamento />} />
       <Route path="inicio-de-namoro" element={<IniciodeNamoro />} />
       <Route path="namoradonamorada" element={<NamoradoNamorada />} />
-      <Route path="nao-correspondido" element={<NaoCorrespondido />} />
+      {/* <Route path="nao-correspondido" element={<NaoCorrespondido />} /> */}
       <Route path="obrigadoa-pelos-momentos" element={<ObrigadoPelosMomentos />} />
       <Route path="otimismo" element={<Otimismo />} />
       <Route path="paquera" element={<Paquera />} />
       <Route path="pedido-de-casamento" element={<PedidoCasamento />} />
-      <Route path="pedido-de-namoro" element={<PedidoNamoro />} />
+      {/* <Route path="pedido-de-namoro" element={<PedidoNamoro />} /> */}
       <Route path="picante" element={<Picante />} />
       <Route path="reconciliacao" element={<Reconciliacao />} />
       <Route path="reencontro" element={<Reencontro />} />
