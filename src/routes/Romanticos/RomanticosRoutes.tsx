@@ -31,7 +31,7 @@ import Reencontro from "./Reencontro/Reencontro";
 import Tumultuado from "./Tumultuado/Tumultuado";
 import Saudade from "./Saudade/Saudade";
 import VoceEspecial from "./VoceEspecial/VoceEspecial";
-import ParaNoivoa from "./ParaNoivoa/ParaNoiva.tsx";
+// import ParaNoivoa from "./ParaNoivoa/ParaNoiva.tsx";
 import { Route, Routes } from "react-router-dom";
 const layoutsItems = [
   {
@@ -67,7 +67,7 @@ const layoutsItems = [
       "Tumultuado",
       "Saudade",
       "Você é Especial",
-      "Para Noivo(a)",
+      // "Para Noivo(a)",
     ],
   },
 ];
@@ -110,7 +110,7 @@ const RomanticosRoutes: React.FC = () => {
       <Route path="tumultuado" element={<Tumultuado />} />
       <Route path="saudade" element={<Saudade />} />
       <Route path="voce-e-especial" element={<VoceEspecial />} />
-      <Route path="para-noivoa" element={<ParaNoivoa />} />
+      {/* <Route path="para-noivoa" element={<ParaNoivoa />} /> */}
     </Routes>
   );
 };
