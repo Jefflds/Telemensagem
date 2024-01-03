@@ -2,6 +2,8 @@ import React from "react";
 import { Route, Routes } from "react-router-dom";
 import Aniversario from "./AniversarioHome";
 import AniversarioRoute from "./Aniversario/AniversarioRoute";
+import AniversarioFamiliarRoute from "./Aniversario-familiar/AniversarioFamiliarRoute";
+import AniversarioRomanticoRoute from "./Aniversario-romantico/AniversarioRomanticoRoute";
 
 const layoutsItems = [
   {
@@ -63,6 +65,14 @@ const AniversarioRoutes: React.FC = () => {
     <Routes>
       <Route path="/" element={<Aniversario layoutsItems={layoutsItems} />} />
       <Route path="/aniversario/*" element={<AniversarioRoute />} />
+      <Route
+        path="/aniversario-familiar/*"
+        element={<AniversarioFamiliarRoute />}
+      />
+      <Route
+        path="/aniversario-romantico/*"
+        element={<AniversarioRomanticoRoute/>}
+      />
     </Routes>
   );
 };

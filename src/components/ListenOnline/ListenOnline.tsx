@@ -9,14 +9,16 @@ interface ListenOnlineProps {
 const ListenOnline: React.FC<ListenOnlineProps> = ({ ListenItems }) => {
   const LinkToRoute = (item: string) => {
     const normalizedStr = item
+      .replace(/[áàãâä]/g, "a")
+      .replace(/[éèêë]/g, "e")
+      .replace(/[íìîï]/g, "i")
+      .replace(/[óòõôö]/g, "o")
+      .replace(/[úùûü]/g, "u")
       .replace(/ç/g, "c")
-      .replace(/ã/g, "a")
-      .replace(/á/g, "a")
-      .replace(/â/g, "a")
-      .replace(/é/g, "e")
       .replace(/[^a-zA-Z0-9]/g, "")
+      .replace(/\s+/g, "-")
       .toLowerCase();
-
+      
     return normalizedStr;
   };
 
