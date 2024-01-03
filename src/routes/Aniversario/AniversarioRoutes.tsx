@@ -1,17 +1,17 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import Aniversario from "./Aniversario";
-import AmigaAmigo from "./AmigaAmigo/AmigaAmigo";
-import Neutro from "./Neutro/Neutro";
-import PessoaEspecial from "./PessoaEspecial/PessoaEspecial";
-import Antecipado from "./Antecipado/Antecipado";
-import ComGozacao from "./ComGozacao/ComGozacao";
-import ComOtimismo from "./ComOtimismo/ComOtimismo";
-import PessoaDistante from "./PessoaDistante/PessoaDistante";
-import Cliente from "./Cliente/Cliente";
-import Crianca from "./Crianca/Crianca";
-import Terceiros from "./Terceiros/Terceiros";
-import Atrasado from "./Atrasado/Atrasado";
+import Aniversario from "./AniversarioHome";
+import AmigaAmigo from "./Aniversario/AmigaAmigo/AmigaAmigo";
+import Neutro from "./Aniversario/Neutro/Neutro";
+import PessoaEspecial from "./Aniversario/PessoaEspecial/PessoaEspecial";
+import Antecipado from "./Aniversario/Antecipado/Antecipado";
+import ComGozacao from "./Aniversario/ComGozacao/ComGozacao";
+import ComOtimismo from "./Aniversario/ComOtimismo/ComOtimismo";
+import PessoaDistante from "./Aniversario/PessoaDistante/PessoaDistante";
+import Cliente from "./Aniversario/Cliente/Cliente";
+import Crianca from "./Aniversario/Crianca/Crianca"
+import Terceiros from "./Aniversario/Terceiros/Terceiros";
+import Atrasado from "./Aniversario/Atrasado/Atrasado";
 
 const layoutsItems = [
   {
