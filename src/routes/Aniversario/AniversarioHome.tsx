@@ -1,4 +1,3 @@
-import React from "react";
 import PageLayout, {
   PageLayoutProps,
 } from "../../components/PageLayout/PageLayout";

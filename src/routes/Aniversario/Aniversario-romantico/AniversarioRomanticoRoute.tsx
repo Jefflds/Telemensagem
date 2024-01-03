@@ -1,7 +1,11 @@
-const AniversarioRomanticoRoute = () => {
+import { Routes, Route } from "react-router-dom";
+
+const AniversarioRomanticoRoute: React.FC = () => {
   return (
-    <div>AniversarioRomanticoRoute</div>
-  )
+    <Routes>
+      <Route />
+    </Routes>
+  );
 }
 
 export default AniversarioRomanticoRoute

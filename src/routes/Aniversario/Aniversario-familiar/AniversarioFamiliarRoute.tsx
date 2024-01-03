@@ -1,6 +1,10 @@
-const AniversarioFamiliarRoute = () => {
+import { Route, Routes } from "react-router-dom"
+
+const AniversarioFamiliarRoute: React.FC = () => {
   return (
-    <div>AniversarioFamiliarRoute</div>
+    <Routes>
+      <Route/>
+    </Routes>
   )
 }
 
