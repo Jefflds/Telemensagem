@@ -8,7 +8,7 @@ import Banner from "./layout/Banner/Banner";
 import Header from "./layout/Header/Header";
 import Footer from "./layout/Footer/Footer";
 import Romanticos from "./routes/Romanticos/RomanticosRoutes";
-import AniversarioRoutes from "./routes/Aniversario/AniversarioRoutes";
+import AniversarioRoutes from "./routes/Aniversario/AniversariosHomeRoutes";
 import ButtonWhats from "./components/buttonWhats/buttonWhats";
 import LgbtRoutes from "./routes/Lgbt/LgbtRoutes";
 import VariadasRoutes from "./routes/Variadas/VariadasRoutes";
