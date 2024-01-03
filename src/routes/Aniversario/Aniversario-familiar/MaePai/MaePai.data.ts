@@ -1,4 +1,4 @@
-import AudioFile1 from "../../../../assets/Msgaudios/Aniversario/Aniversario-Amiga-Amigo/Telemensagem1.mp3";
+import AudioFile1 from "../../../../assets/Msgaudios/Aniversario-familiar/Aniversario-familiar-pai-e-mae/Telemensagem(1).mp3";
 
 export const audioData = [
   {
@@ -7,8 +7,8 @@ export const audioData = [
     subTitle: "Aniversário Mãe",
     subItems: [
       {
-        id: "0001",
-        subTitle: " Aniversário amiga (voz feminina)",
+        id: "0507M",
+        subTitle: "Aniversário de mãe (voz feminina)",
         src: AudioFile1,
       },
     ],
