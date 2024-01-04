@@ -1,7 +1,8 @@
-const NetaNeto: React.FC = () => {
-  return (
-    <div>NetaNeto</div>
-  )
-}
+import PageAudioLayout from "../../../../components/PageAudioLayout/PageAudioLayout";
+import { audioData } from "./NetaNeto.data";
 
-export default NetaNeto
+const NetaNeto: React.FC = () => {
+  return <PageAudioLayout audioData={audioData} />;
+};
+
+export default NetaNeto;

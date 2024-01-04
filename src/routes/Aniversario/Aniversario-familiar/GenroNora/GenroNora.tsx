@@ -1,7 +1,8 @@
-const GenroNora: React.FC = () => {
-  return (
-    <div>GenroNora</div>
-  )
-}
+import PageAudioLayout from "../../../../components/PageAudioLayout/PageAudioLayout";
+import { audioData } from "./GenroNora.data";
 
-export default GenroNora
+const GenroNora: React.FC = () => {
+  return <PageAudioLayout audioData={audioData} />;
+};
+
+export default GenroNora;
