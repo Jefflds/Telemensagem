@@ -21,21 +21,16 @@ export interface PageLayoutProps {
 const PageLayout: React.FC<PageLayoutProps> = ({ layoutsItems }) => {
   const LinkToRoute = (item: string) => {
     const normalizedStr = item
-    .toLowerCase()
-    .replace(/[áàãâä]/g, 'a')
-    .replace(/[éèêë]/g, 'e')
-    .replace(/[íìîï]/g, 'i')
-    .replace(/[óòõôö]/g, 'o')
-    .replace(/[úùûü]/g, 'u')
-    .replace(/ç/g, 'c')
-    .replace(/[^a-z0-9\s]/g, '')
-    .replace(/\s+/g, '-');
-    
-   
-    
-  
-  
-  
+      .toLowerCase()
+      .replace(/[áàãâä]/g, "a")
+      .replace(/[éèêë]/g, "e")
+      .replace(/[íìîï]/g, "i")
+      .replace(/[óòõôö]/g, "o")
+      .replace(/[úùûü]/g, "u")
+      .replace(/ç/g, "c")
+      .replace(/[^a-z0-9\s]/g, "")
+      .replace(/\s+/g, "-");
+
     return normalizedStr;
   };
 
@@ -51,7 +46,14 @@ const PageLayout: React.FC<PageLayoutProps> = ({ layoutsItems }) => {
           <CenteredParagraph>
             <ColoredSpan>
               {layout.buttonValues.map((button, buttonIndex) => (
-                <Link key={buttonIndex} to={LinkToRoute(button)}>
+                <Link
+                  key={buttonIndex}
+                  to={
+                    layoutsItems.length > 1
+                      ? `${LinkToRoute(layout.title)}/${LinkToRoute(button)}`
+                      : LinkToRoute(button)
+                  }
+                >
                   <Button>{button}</Button>
                 </Link>
               ))}
