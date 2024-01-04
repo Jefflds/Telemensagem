@@ -1,7 +1,8 @@
-const SograSogro: React.FC = () => {
-  return (
-    <div>SograSogro</div>
-  )
-}
+import PageAudioLayout from "../../../../components/PageAudioLayout/PageAudioLayout";
+import { audioData } from "./SograSogro.data";
 
-export default SograSogro
+const SograSogro: React.FC = () => {
+  return <PageAudioLayout audioData={audioData} />;
+};
+
+export default SograSogro;

@@ -1,7 +1,8 @@
-const TiaTio: React.FC = () => {
-  return (
-    <div>TiaTio</div>
-  )
-}
+import PageAudioLayout from "../../../../components/PageAudioLayout/PageAudioLayout";
+import { audioData } from "./TiaTio.data";
 
-export default TiaTio
+const TiaTio: React.FC = () => {
+  return <PageAudioLayout audioData={audioData} />;
+};
+
+export default TiaTio;
