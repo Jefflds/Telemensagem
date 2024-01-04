@@ -1,7 +1,8 @@
-const AfilhadaAfilhado: React.FC = () => {
-  return (
-    <div>AfilhadaAfilhado</div>
-  )
-}
+import PageAudioLayout from "../../../../components/PageAudioLayout/PageAudioLayout";
+import { audioData } from "./AfilhadaAfilhado.data";
 
-export default AfilhadaAfilhado
+const AfilhadaAfilhado: React.FC = () => {
+  return <PageAudioLayout audioData={audioData} />;
+};
+
+export default AfilhadaAfilhado;
