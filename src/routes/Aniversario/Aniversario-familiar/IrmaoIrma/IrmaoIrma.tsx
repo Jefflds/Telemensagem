@@ -1,7 +1,8 @@
-const IrmaoIrma: React.FC = () => {
-  return (
-    <div>IrmaoIrma</div>
-  )
-}
+import PageAudioLayout from "../../../../components/PageAudioLayout/PageAudioLayout";
+import { audioData } from "./IrmaoIrma.data";
 
-export default IrmaoIrma
+const IrmaoIrma: React.FC = () => {
+  return <PageAudioLayout audioData={audioData} />;
+};
+
+export default IrmaoIrma;
