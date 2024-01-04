@@ -1,7 +1,8 @@
-const MadrinhaPadrinho: React.FC = () => {
-  return (
-    <div>MadrinhaPadrinho</div>
-  )
-}
+import PageAudioLayout from "../../../../components/PageAudioLayout/PageAudioLayout";
+import { audioData } from "./MadrinhaPadrinho.data";
 
-export default MadrinhaPadrinho
+const MadrinhaPadrinho: React.FC = () => {
+  return <PageAudioLayout audioData={audioData} />;
+};
+
+export default MadrinhaPadrinho;
