@@ -1,7 +1,8 @@
-const ComadreCompadre: React.FC = () => {
-  return (
-    <div>ComadreCompadre</div>
-  )
-}
+import PageAudioLayout from "../../../../components/PageAudioLayout/PageAudioLayout";
+import { audioData } from "./ComadreCompadre.data";
 
-export default ComadreCompadre
+const ComadreCompadre: React.FC = () => {
+  return <PageAudioLayout audioData={audioData} />;
+};
+
+export default ComadreCompadre;
