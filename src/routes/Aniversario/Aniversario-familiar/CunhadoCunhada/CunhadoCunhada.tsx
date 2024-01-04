@@ -1,7 +1,8 @@
-const CunhadoCunhada: React.FC = () => {
-  return (
-    <div>CunhadoCunhada</div>
-  )
-}
+import PageAudioLayout from "../../../../components/PageAudioLayout/PageAudioLayout";
+import { audioData } from "./CunhadoCunhada.data";
 
-export default CunhadoCunhada
+const CunhadoCunhada: React.FC = () => {
+  return <PageAudioLayout audioData={audioData} />;
+};
+
+export default CunhadoCunhada;
