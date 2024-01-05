@@ -52,7 +52,7 @@ const layoutsItems = [
       "Casamento",
       "Noivado",
       "Namoro",
-      "Amante",
+     
       "Reconciliação",
       "De Relacionamento",
       "Com Conquista",

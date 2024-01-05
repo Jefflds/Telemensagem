@@ -7,7 +7,7 @@ import ExNamoradoExEsposa from "./ExNamoradoExEsposa/ExNamoradoExEsposa.tsx"
 import Casamento from "./Casamento/Casamento.tsx"
 import Noivado from "./Noivado/Noivado.tsx"
 import Namoro from "./Namoro/Namoro.tsx"
-import Amante from "./Amante/Amante.tsx"
+
 import DeRelacionamento from "./DeRelacionamento/DeRelacionamento.tsx"
 import ComConquista from "./ComConquista/ComConquista.tsx"
 import Reconciliacao from "./Reconciliacao/Reconciliacao.tsx"
@@ -24,7 +24,7 @@ const AniversarioRomanticoRoute: React.FC = () => {
       <Route path="/casamento" element={<Casamento/>}/>
       <Route path="/noivado" element={<Noivado/>}/>
       <Route path="/namoro" element={<Namoro/>}/>
-      <Route path="/amante" element={<Amante/>}/>
+    
       <Route path="/reconciliacao" element={<Reconciliacao/>}/>
       <Route path="/de-relacionamento" element={<DeRelacionamento/>}/>
       <Route path="/com-conquista" element={<ComConquista/>}/>
